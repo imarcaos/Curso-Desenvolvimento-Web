@@ -1,29 +1,12 @@
 <!DOCTYPE html>
 <html>
-<!--S02-C16 - CSS Selectors in Practice - part1-->
+<!--S02-C16 - CSS Selectors in Practice - part2-->
 
 <head>
     <style>
-        /*
-        * {
-            background: red;
-            color: white;
-        }        
-
-        li {
+        /*assigning values to elements child selector with a class aaa*/
+        div li.aaa {
             background: yellow;
-            color: black;
-        }
-
-        .cor {
-            background: green;
-
-        }
-        */
-
-        #paragrafo1 {
-            background: blue;
-            color: white;
         }
     </style>
 </head>
@@ -32,16 +15,16 @@
 
     <div>Este é o conteúdo de um elemento div.</div>
     <div>E temos aqui outro elemento div.</div>
-    <span class="cor">Este é um texto dentro de um elemento span.</span>
+    <span>Este é um texto dentro de um elemento span.</span>
 
     <div>
-        <p id="paragrafo1">teste</p>
+        <p>teste</p>
     </div>
 
     <div>
         <ul>
             <li>Primeiro elemento de uma lista.</li>
-            <li>Segundo elemento de uma lista.</li>
+            <li class="aaa">Segundo elemento de uma lista.</li>
             <li>Terceito elemento de uma lista.</li>
             <li>Quarto elemento de uma lista.</li>
             <li>Quinto elemento de uma lista.</li>
