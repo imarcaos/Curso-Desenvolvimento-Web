@@ -6,7 +6,8 @@ O curso pareceu-me bastante completo e como eu acompanho o canal deste professor
 
 Conteúdo do curso: HTML5, CSS3, JS, Bootstrap5, PHP8, POO, MVC, MySQL, SQL, REST APIs, Hospedagem WEB ...
 
-Gosto de subir meus códigos para o Git de forma a poder fazer uma eventual consulta ou que possa ser útil a outro estudante/desenvolvedor, se necessário irá encontrar comentários detalhando 
+Gosto de subir meus códigos para o Git de forma a poder fazer uma eventual consulta ou que possa ser útil a outro estudante/desenvolvedor, os códigos podem estar comentados com algumas explicações se necessário. 
+
 Se eu achar necessário irei detalhar alguns exercícios através de comentários dentro do próprio código.
 
 A lista abaixo estará dividida em seções e eventualmente os exercícios que estas venham a possuir.
@@ -18,5 +19,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 - Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
  - - Aulas iniciais HTML básico
  - - Class 08-09 - Basic Page with some elements: title, h1, ul-ol list, p, links, image
+ - - S02-C13 - Exercicio Pratico com Atributos de HTML5
 
  
