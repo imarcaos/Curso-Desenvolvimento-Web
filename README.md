@@ -20,5 +20,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - Aulas iniciais HTML básico
  - - Class 08-09 - Basic Page with some elements: title, h1, ul-ol list, p, links, image
  - - S02-C13 - Exercicio Pratico com Atributos de HTML5
+ - - S02-C15 - Construindo o Primeiro Website so com HTML5
 
  
