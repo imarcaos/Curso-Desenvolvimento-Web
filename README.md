@@ -24,5 +24,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S02-C16 - CSS Selector in Practice
  - - S02-C24 - CSS Colors
  - - S02-C25 - CSS Box Model
+ - - S02-C26 - CSS Margin and Paddings
+ - - S02-C28 - CSS Pseudo Class and Pseudo Element
+ - - S02-C29 - CSS Converting link in Button
 
  
