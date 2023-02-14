@@ -27,5 +27,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S02-C26 - CSS Margin and Paddings
  - - S02-C28 - CSS Pseudo Class and Pseudo Element
  - - S02-C29 - CSS Converting link in Button
-
+ - - S02-C32 - CSS Float Semantic Elements side by side
  
