@@ -31,3 +31,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S02-C36 - Web Page - Final Module Exercise
  - Seção 03 - HTML5 Nível 2 - Conceitos intermédios e avançados do HTML5 
  - - S03-C52 - Tables - Practical exercise Colspan & Rowspan
+ - - S03-C59 - Form - first form
