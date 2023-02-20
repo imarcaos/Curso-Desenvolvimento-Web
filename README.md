@@ -33,3 +33,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S03-C52 - Tables - Practical exercise Colspan & Rowspan
  - - S03-C59 - Form - first form
  - - S03-C62 - Form - input element attributes
+ - - S03-C63 - Form - input types - part1
