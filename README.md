@@ -34,4 +34,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S03-C59 - Form - first form
  - - S03-C62 - Form - input element attributes
  - - S03-C63 - Form - input types - part1
- - - S03-C63 - Form - input types - part2 input tips not to use
+ - - S03-C64 - Form - input types - part2 input tips not to use
+ - - S03-C65 - Form - input types - input color with personal color
