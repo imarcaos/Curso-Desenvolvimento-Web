@@ -16,6 +16,10 @@
         .form-group {
             margin-bottom: 10px;
         }
+
+        label {
+            display: block;
+        }
     </style>
 </head>
 
@@ -25,9 +29,14 @@
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
             <h3>Formulário</h3>
 
-            <!-- color -->
             <div class="form-group">
-                <input type="color" name="campo_cor" value="#ff0000">
+                <label for="campo-usuario">Usuário:</label>
+                <input type="text" name="campo_usuario" id="campo-usuario" required>
+            </div>
+
+            <div class="form-group">
+                <label for="campo-senha">Senha: <input type="password" name="campo_senha" id="campo-senha" required>
+                </label>
             </div>
 
             <!-- submit -->
