@@ -39,3 +39,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S03-C66 - Form - Label Element
  - - S03-C67 - Form - Input Checkbox
  - - S03-C68 - Form - Input Radio
+ - - S03-C69 - Form - Input Range

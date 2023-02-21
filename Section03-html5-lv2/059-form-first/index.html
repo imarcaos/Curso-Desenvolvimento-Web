@@ -28,43 +28,13 @@
     <div class="form-container">
         <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
-
-            <p>Género</p>
-            <div class="form-group">
-                <label for="">
-                    <input type="radio" name="genero" id="" value="masculino" checked>
-                    Masculino
-                </label>
-            </div>
+            <!-- Class -->
 
             <div class="form-group">
-                <label for="">
-                    <input type="radio" name="genero" id="" value="feminino">
-                    Feminino
-                </label>
+                <input type="range" name="campo_intervalo" min="0" max="1000" step="100" oninput="mostrar(this.value)">
+                <p id="valor_range"></p>
             </div>
 
-            <p>Qual o sistema operacional do seu computador</p>
-            <div class="form-group">
-                <label for="">
-                    <input type="radio" name="sistema_operacional" id="" value="windows" checked>
-                    Windows
-                </label>
-            </div>
-
-            <div class="form-group">
-                <label for="">
-                    <input type="radio" name="sistema_operacional" id="" value="mac">
-                    Mac
-                </label>
-            </div>
-
-            <div class="form-group">
-                <label for="">
-                    <input type="radio" name="sistema_operacional" id="" value="linux">
-                    Linux
-                </label>
-            </div>
 
             <!-- submit -->
             <div class="form-group">
@@ -72,6 +42,12 @@
             </div>
         </form>
     </div>
+
+    <script>
+        function mostrar(value) {
+            document.getElementById("valor_range").innerHTML = value
+        }
+    </script>
 </body>
 
 </html>
