@@ -29,12 +29,7 @@
         <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
             <!-- Class -->
-
-            <div class="form-group">
-                <input type="range" name="campo_intervalo" min="0" max="1000" step="100" oninput="mostrar(this.value)">
-                <p id="valor_range"></p>
-            </div>
-
+            <input type="hidden" name="campo_escondido" value="escondido">
 
             <!-- submit -->
             <div class="form-group">
@@ -43,11 +38,6 @@
         </form>
     </div>
 
-    <script>
-        function mostrar(value) {
-            document.getElementById("valor_range").innerHTML = value
-        }
-    </script>
 </body>
 
 </html>
