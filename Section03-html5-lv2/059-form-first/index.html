@@ -26,20 +26,43 @@
 <body>
 
     <div class="form-container">
+        <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
-            <h3>Formulário</h3>
 
+            <p>Género</p>
             <div class="form-group">
-                <label>
-                    <input type="checkbox" name="check_atualizar" id="" value="atualizar">
-                    Atualizar os dados automaticamente.
+                <label for="">
+                    <input type="radio" name="genero" id="" value="masculino" checked>
+                    Masculino
                 </label>
             </div>
 
             <div class="form-group">
-                <label>
-                    <input type="checkbox" name="check_salvar" id="" value="salvar">
-                    Salvar toda a informação automaticamente.
+                <label for="">
+                    <input type="radio" name="genero" id="" value="feminino">
+                    Feminino
+                </label>
+            </div>
+
+            <p>Qual o sistema operacional do seu computador</p>
+            <div class="form-group">
+                <label for="">
+                    <input type="radio" name="sistema_operacional" id="" value="windows" checked>
+                    Windows
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="">
+                    <input type="radio" name="sistema_operacional" id="" value="mac">
+                    Mac
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="">
+                    <input type="radio" name="sistema_operacional" id="" value="linux">
+                    Linux
                 </label>
             </div>
 
