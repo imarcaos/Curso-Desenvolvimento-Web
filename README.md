@@ -43,5 +43,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - - S03-C70 - Form - Input Hidden
  - - S03-C73 - Form - Element Select
  - - S03-C74 - Form - Textarea
- 
+ - - S03-C75 - Form - Datalist
+
  
