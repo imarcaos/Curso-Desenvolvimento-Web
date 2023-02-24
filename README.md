@@ -51,4 +51,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - S03-C78 - Form - Relative and Absolute Paths
  
  - Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
-    - C84 - Using another type of font with Font Face Ruler
+    - C84 - Using another type of font with CSS font face ruler
