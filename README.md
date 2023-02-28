@@ -53,3 +53,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
  - Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
     - C84 - Using another type of font with CSS font face ruler
     - C86 - External fonts
+    - C88 - Horizontal alignment
+    
