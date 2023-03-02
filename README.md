@@ -60,5 +60,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C91 - Font Variant
     - C92 - List Style
     - C93 - Backgrounds in HTML elements
+    - C94 - Color Gradients
+    
     
 
