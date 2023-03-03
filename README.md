@@ -63,6 +63,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C94 - Color Gradients
     - C95 - CSS Layouts
     - C96 - Display property
+    - C97 - Float
 
     
 
