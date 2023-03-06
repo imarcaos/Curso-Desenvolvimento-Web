@@ -67,6 +67,9 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C98 - Positioning
     - C99 - Z-Index, Fixed and Sticky
     - C101 - Flexbox - flex container part1
+      - flex-direction, flex-wrap and flex-flow
+    - C102 - Flexbox - flex container part2
+      - justify-content: flex-start, flex-end, space-around, space-between and space-evenly
 
     
 
