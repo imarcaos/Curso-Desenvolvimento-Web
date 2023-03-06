@@ -70,6 +70,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - flex-direction, flex-wrap and flex-flow
     - C102 - Flexbox - flex container part2
       - justify-content: flex-start, flex-end, space-around, space-between and space-evenly
+   - C103 - Flexbox - flex container part3
+      - gap, row-gap and column-gap
 
     
 
