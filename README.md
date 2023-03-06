@@ -66,6 +66,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C97 - Float
     - C98 - Positioning
     - C99 - Z-Index, Fixed and Sticky
+    - C101 - Flexbox - flex container part1
 
     
 
