@@ -74,5 +74,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - gap, row-gap and column-gap
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
-    
+   - C105 - Flexbox exercise 1
 

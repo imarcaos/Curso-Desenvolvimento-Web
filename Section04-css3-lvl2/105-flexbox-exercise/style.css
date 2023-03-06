@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 42, 63);
+}
+
+header {
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 0 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid;
+    background-color: rgb(23, 23, 49);
+}
+
+nav a:hover {
+    background-color: rgb(72, 72, 78); ;
+}
+
+section {
+    height: 60vw; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    background-color: rgb(14, 15, 17);
+}
+
+section img {
+    width: 60px;
+}
+
+section div {  
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    border: 1px solid rgb(104, 104, 104);
+}
+
+section p {
+    padding-top: 20px;
+    color: white;
+}
+
+footer {
+    height: 20vw;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+}
+
+footer div {
+    padding-top: 20px;
+    color: rgb(31, 137, 207);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+footer p {
+    padding-top: 20px;
+    color: gray;
+    font-size: 0.8rem;
+}
