@@ -72,6 +72,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - justify-content: flex-start, flex-end, space-around, space-between and space-evenly
    - C103 - Flexbox - flex container part3
       - gap, row-gap and column-gap
-
+   - C104 - Flexbox - flex items properties
+      - order, flex-grow, flex-shrink
     
 
