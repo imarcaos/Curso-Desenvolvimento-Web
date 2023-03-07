@@ -48,7 +48,8 @@ section img {
     width: 60px;
 }
 
-section div {  
+section div { 
+    height: 250px; 
     margin: 30px;
     padding: 20px;
     display: flex;
