@@ -75,5 +75,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
    - C105 - Flexbox exercise 1
-   - C105 - Flexbox exercise 2
+   - C106 - Flexbox exercise 2
+   - C107 - Flexbox exercise 3
 

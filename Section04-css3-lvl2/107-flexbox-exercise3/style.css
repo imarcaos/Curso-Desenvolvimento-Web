@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(110deg , rgb(0, 225, 255), rgb(141, 0, 206));
+    height: 100vh;
+}
+
+a {
+    color: rgb(0, 134, 211);
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 400px;
+    height: 500px;
+    padding: 20px 30px;
+    background-color: white; 
+    border-radius: 5px;   
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+form div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    padding: 5px 0;
+}
+
+form div label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+form div input {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.login_close {
+    font-size: 22px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.login_title {
+    font-size: 33px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.login_forgot {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.login_button {
+    background: linear-gradient(90deg, rgb(0, 225, 255), rgb(141, 0, 206));
+    border: none;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login_button:hover {
+    box-shadow: 0 0 4px 0px black;
+    cursor: pointer;
+}
+
+.not_member {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(77, 77, 77);
+}
