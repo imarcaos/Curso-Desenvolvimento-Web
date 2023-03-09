@@ -77,4 +77,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C105 - Flexbox exercise 1
    - C106 - Flexbox exercise 2
    - C107 - Flexbox exercise 3
+   - C109 - CSS Grid Container
 
