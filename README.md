@@ -80,4 +80,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C109 - CSS Grid Container
    - C110 - CSS Grid Template Rows & Columns
    - C111 - CSS Grid Template Areas
+   - C112 - CSS Grid Row & Column Start End
 
