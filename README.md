@@ -82,5 +82,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C111 - CSS Grid Template Areas
    - C112 - CSS Grid Row & Column Start End
    - C115 - Grid Justify Items, Align Items and Place Items
-   - C118 - Grid Items properties review 
+   - C118 - Grid Items properties review
+   - C119, C120, 121 -Grid Exercise 1, 2 and 3
 
