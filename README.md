@@ -84,4 +84,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C115 - Grid Justify Items, Align Items and Place Items
    - C118 - Grid Items properties review
    - C119, C120, C121 -Grid Exercise 1, 2 and 3
+   - C124 - Media Queries - Mobile First
 
