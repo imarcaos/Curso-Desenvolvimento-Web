@@ -87,5 +87,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C124 - Media Queries - Mobile First
    - C126 - Media Queries - Breakingpoints
    - C127 - Media Queries - Hidden items
+   - C128 - Media Queries - Orientation
 
 
