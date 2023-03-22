@@ -86,5 +86,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C119, C120, C121 -Grid Exercise 1, 2 and 3
    - C124 - Media Queries - Mobile First
    - C126 - Media Queries - Breakingpoints
-   
+   - C127 - Media Queries - Hidden items
+
 
