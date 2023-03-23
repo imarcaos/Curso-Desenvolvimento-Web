@@ -93,3 +93,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 
  - Section 05 - JavaScript for DOM Level 1
     - C132 - Intro about Section
+    - C141 - Javascript Operators
