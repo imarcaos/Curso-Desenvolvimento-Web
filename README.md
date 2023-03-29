@@ -96,3 +96,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C141 - Javascript Operators
     - C143 - Javascript if, else-if, else
     - C145 - Ternary Operator
+    - C146 - Switch Case
+    - C147 - Arrays
