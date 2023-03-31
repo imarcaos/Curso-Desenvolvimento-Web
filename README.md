@@ -83,7 +83,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C112 - CSS Grid Row & Column Start End
    - C115 - Grid Justify Items, Align Items and Place Items
    - C118 - Grid Items properties review
-   - C119, C120, C121 -Grid Exercise 1, 2 and 3
+   - C119, C120, C121 - Grid Exercise 1, 2 and 3
    - C124 - Media Queries - Mobile First
    - C126 - Media Queries - Breakingpoints
    - C127 - Media Queries - Hidden items
@@ -98,3 +98,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C145 - Ternary Operator
     - C146 - Switch Case
     - C147 - Arrays
+    - C148 - Arrays - Length, push, unshift, shift, pop and splice
