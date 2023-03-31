@@ -97,5 +97,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C143 - Javascript if, else-if, else
     - C145 - Ternary Operator
     - C146 - Switch Case
-    - C147 - Arrays
+    - C147 - Arrays - Introduction
     - C148 - Arrays - Length, push, unshift, shift, pop and splice
+    - C149 - Arrays - Slice, concat, includes, indexof and join
