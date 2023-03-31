@@ -100,3 +100,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C147 - Arrays - Introduction
     - C148 - Arrays - Length, push, unshift, shift, pop and splice
     - C149 - Arrays - Slice, concat, includes, indexof and join
+    - C150 - Arrays -Sort
