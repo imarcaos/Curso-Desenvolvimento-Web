@@ -102,3 +102,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C149 - Arrays - Slice, concat, includes, indexof and join
     - C150 - Arrays -Sort
     - C151 - Cycles,loops and interactions (while and for)
+    - C152 - Functions
