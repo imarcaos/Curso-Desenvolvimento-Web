@@ -106,3 +106,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C153 - Functions expressions and arrow functions
     - C154 - Variables Scope - local and global
     - C155 - Objects
+    - C156 - DOM - Document Object Model Intro
+    - C157 - DOM navigation intro
