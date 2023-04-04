@@ -104,3 +104,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C151 - Cycles,loops and interactions (while and for)
     - C152 - Functions
     - C153 - Functions expressions and arrow functions
+    - C154 - Variables Scope - local and global
