@@ -111,4 +111,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C158 - DOM getElementById
     - C159 - DOM get elements methods
     - C160 - DOM querySelector() and querySelectorAll()
-    - 
+    - C161 - DOM Query Selectors examples
