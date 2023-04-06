@@ -110,3 +110,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C157 - DOM navigation intro
     - C158 - DOM getElementById
     - C159 - DOM get elements methods
+    - C160 - DOM querySelector() and querySelectorAll()
+    - 
