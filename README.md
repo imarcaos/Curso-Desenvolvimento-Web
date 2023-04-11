@@ -113,3 +113,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C160 - DOM querySelector() and querySelectorAll()
     - C161 - DOM Query Selectors examples
     - C162 - DOM Inline Style
+    - C163 - DOM className and classList
