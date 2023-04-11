@@ -114,3 +114,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C161 - DOM Query Selectors examples
     - C162 - DOM Inline Style
     - C163 - DOM className and classList
+    - C164 - DOM Attribute
+    
