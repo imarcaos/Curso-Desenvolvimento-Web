@@ -116,3 +116,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C163 - DOM className and classList
     - C164 - DOM Attribute
     - C165 - DOM Add and Remove Elements
+    - C166 - DOM Event Handlers
+    
