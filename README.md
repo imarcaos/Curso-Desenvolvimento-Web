@@ -119,5 +119,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C166 - DOM Event Handlers
     - C167 - DOM Event Listeners
     - C168 - DOM Event Listeners Remove - exercise
+    - C169 - DOM Event Listener-event propagation - exercise
+
 
 
