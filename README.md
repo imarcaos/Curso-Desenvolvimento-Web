@@ -118,4 +118,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C165 - DOM Add and Remove Elements
     - C166 - DOM Event Handlers
     - C167 - DOM Event Listeners
-    
+    - C168 - DOM Event Listeners Remove - exercise
+
+
