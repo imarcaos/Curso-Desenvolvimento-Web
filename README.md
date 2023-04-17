@@ -120,6 +120,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C167 - DOM Event Listeners
     - C168 - DOM Event Listeners Remove - exercise
     - C169 - DOM Event Listener-event propagation - exercise
-
+    - C170 - DOM Event Listener-same event listener for 3 elements same ex.169- exercise
 
 
