@@ -124,5 +124,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C171 - DOM Event Listener-graduation color - exercise
     - C172 - DOM Event Listener-graduation color - exercise less code
     - C173 - DOM Prevent Default
+    - C174 - DOM Intro to Form Validation
+
 
 
