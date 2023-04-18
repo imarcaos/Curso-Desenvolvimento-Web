@@ -123,5 +123,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C170 - DOM Event Listener-same event listener for 3 elements same ex.169- exercise
     - C171 - DOM Event Listener-graduation color - exercise
     - C172 - DOM Event Listener-graduation color - exercise less code
+    - C173 - DOM Prevent Default
 
 
