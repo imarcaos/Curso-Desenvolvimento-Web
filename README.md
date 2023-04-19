@@ -127,7 +127,10 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C174 - DOM Intro to Form Validation
     - C175 - DOM Form Validation -code improve
     - C176 - DOM Loaded JS - readystatechange and DOMContentLoaded
-    
+    - C177 - A little about JQuery
+      - It's a 2006 JS library
+      - [You might not need JQuery](https://youmightnotneedjquery.com/)
+
 
 
 
