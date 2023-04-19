@@ -126,6 +126,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
     - C173 - DOM Prevent Default
     - C174 - DOM Intro to Form Validation
     - C175 - DOM Form Validation -code improve
+    - C176 - DOM Loaded JS - readystatechange and DOMContentLoaded
+    
 
 
 
