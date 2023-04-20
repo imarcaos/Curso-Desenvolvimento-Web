@@ -135,4 +135,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 - Section 06 - JavaScript Exercises
    - C180 - Counter Exercise 001
    - C181 - Counter with range of values Exercise 002
+   - C182 - Counter with colors for negative, zero and positive Exercise 003
+      - negative = red, positive = green, zero = white
 
