@@ -132,5 +132,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - [You might not need JQuery](https://youmightnotneedjquery.com/)
 
 
-
+- Section 06 - JavaScript Exercises
+   - C180 - Counter Exercise 001
 
