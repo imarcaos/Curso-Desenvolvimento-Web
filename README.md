@@ -134,4 +134,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 
 - Section 06 - JavaScript Exercises
    - C180 - Counter Exercise 001
+   - C181 - Counter with range of values Exercise 002
 
