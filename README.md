@@ -138,4 +138,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C182 - Counter with colors for negative, zero and positive Exercise 003
       - negative = red, positive = green, zero = white
    - C183 - Three Sliders with independents values Exercise 004
+   - C184 - Three Sliders with independents values Exercise 005 - short code
 
