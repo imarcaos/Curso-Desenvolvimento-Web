@@ -17,6 +17,7 @@ for (let r = 1; r <= 3; r++) {
     el.value = 0
     el.addEventListener('input', (e) => {
         document.querySelector("#value_" + r).textContent = e.target.value
+        // console.log(r)
     })
 }
 

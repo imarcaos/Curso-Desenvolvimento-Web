@@ -139,4 +139,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - negative = red, positive = green, zero = white
    - C183 - Three Sliders with independents values Exercise 004
    - C184 - Three Sliders with independents values Exercise 005 - short code
-
+   - C185 - Three buttons and three information areas exercise 006
