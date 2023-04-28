@@ -140,3 +140,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C183 - Three Sliders with independents values Exercise 004
    - C184 - Three Sliders with independents values Exercise 005 - short code
    - C185 - Three buttons and three information areas exercise 006
+   - C186 - Three buttons and three information areas exercise 007 - short code
