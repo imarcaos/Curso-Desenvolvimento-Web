@@ -142,3 +142,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C185 - Three buttons and three information areas exercise 006
    - C186 - Three buttons and three information areas exercise 007 - short code
    - C187 - Change text colors with buttons exercise 008
+   - C188 - Change text opacity with range exercise 009
