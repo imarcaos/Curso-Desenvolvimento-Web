@@ -145,4 +145,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C188 - Change text opacity with range exercise 009
    - C189 - Four boxes, click to change their colors, exercise 010
    - C190 - Like tic-tac-toe, exercise 011
+   - C191 - Add paragraph with input text, exercise 012
    
