@@ -146,4 +146,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C189 - Four boxes, click to change their colors, exercise 010
    - C190 - Like tic-tac-toe, exercise 011
    - C191 - Add paragraph with input text, exercise 012
+   - C192 - Add paragraph with number and input text, exercise 013
    
