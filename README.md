@@ -148,4 +148,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C191 - Add paragraph with input text, exercise 012
    - C192 - Add paragraph with number and input text, exercise 013
    - C193 - Add paragraph restrict words, exercise 014
+   - C194 - Add paragraph before, exercise 015
    
