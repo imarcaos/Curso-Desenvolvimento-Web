@@ -12,7 +12,7 @@ Enunciado:
 Date: 2023-05-14
 */
 
-//----
+//---- correção do Readme
 // info: input #text_post , button .btn, div text #posts
 
 let word_list = [];
