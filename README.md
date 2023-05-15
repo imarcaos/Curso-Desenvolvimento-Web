@@ -151,4 +151,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C194 - Add paragraph before, exercise 015
    - C195 - Add and clear paragraph input text, exercise 016
    - C196 - Add paragraph input text with no repeat, exercise 017
+   - C197 - Add and individual paragraph eliminate, exercise 018
    
