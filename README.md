@@ -152,4 +152,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C195 - Add and clear paragraph input text, exercise 016
    - C196 - Add paragraph input text with no repeat, exercise 017
    - C197 - Add and individual paragraph eliminate, exercise 018
+   - C198 - It's Word in collection or not, exercise 019
    
