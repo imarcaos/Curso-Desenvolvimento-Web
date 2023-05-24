@@ -157,4 +157,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C200 - Focus next element with enter key, exercise 021
    - C201 - Select option turn on/off checkboxes, exercise 022
    - C202 - Checkboxes, all or nothing checked, exercise 023
+   - C203 - Checkboxes, Perfil permissions, exercise 024
    
