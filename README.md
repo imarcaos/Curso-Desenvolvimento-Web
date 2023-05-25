@@ -159,4 +159,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C202 - Checkboxes, all or nothing checked, exercise 023
    - C203 - Checkboxes, Perfil permissions, exercise 024
    - C204 - Multiplication table, exercise 025
+   - C205 - Sequence of inputs, exercise 026
    
