@@ -160,4 +160,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C203 - Checkboxes, Perfil permissions, exercise 024
    - C204 - Multiplication table, exercise 025
    - C205 - Sequence of inputs, exercise 026
+   - C206 - Check input text and change color, exercise 027
+   
    
