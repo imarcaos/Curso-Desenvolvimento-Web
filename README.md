@@ -161,5 +161,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C204 - Multiplication table, exercise 025
    - C205 - Sequence of inputs, exercise 026
    - C206 - Check input text and change color, exercise 027
+   - C207 - 20 Random numbers with a click, exercise 028
    
    
