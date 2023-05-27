@@ -162,5 +162,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C205 - Sequence of inputs, exercise 026
    - C206 - Check input text and change color, exercise 027
    - C207 - 20 Random numbers with a click, exercise 028
+   - C208 - 20 Random numbers with a click, exercise 029
    
    
