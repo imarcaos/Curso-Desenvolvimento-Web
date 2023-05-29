@@ -165,4 +165,9 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C208 - Show random numbers in rows and columns, exercise 029
    - C209 - Calculate division by 3 with one decimal number, exercise 030
    
+- Section 07 - Bootstrap 5 
+   - C210 - Introduction to the Module
+   - C211 - Bootstrap site: https://getbootstrap.com/
+   - C212 - Simple example, page with bootstrap
+   
    
