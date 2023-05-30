@@ -169,5 +169,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C210 - Introduction to the Module
    - C211 - Bootstrap site: https://getbootstrap.com/
    - C212 - Simple example, page with bootstrap
+   - C213 - Add bootstrap via CDN
    
    
