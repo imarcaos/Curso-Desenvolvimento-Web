@@ -174,5 +174,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C215 - Solution for warning map files
       - remove on source code at the end of the code the call for files on warning.
    - C216 - Knowing about breakpoints
+   - C217 - Containers, Rows and Columns
    
    
