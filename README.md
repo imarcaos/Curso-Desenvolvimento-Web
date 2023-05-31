@@ -177,5 +177,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C217 - Containers, Rows and Columns
    - C218 - Columns with sufix
    - C219 - Responsive Columns
+   - C220 - Practical Exercise
    
    
