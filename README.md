@@ -180,5 +180,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C220 - Practical Exercise define number of columns with row-cols
    - C221 - Define number of columns with row-cols
    - C222 - Nesting rows inside cols
+   - C223 - Column offsets
    
    
