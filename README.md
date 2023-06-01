@@ -183,6 +183,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C223 - Column offsets
    - C224 - Horizontal alignment of columns
    - C225 - Vertical alignment of columns
+   - C226 - Change column order
    
    
    
