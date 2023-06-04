@@ -189,7 +189,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C229 - Gutters in the layout grid
    - C230 - About Css grid
    - C231 - Typography and documentation analysis
-
+   - C232 - Reponsive images with img-fluid
 
    
    
