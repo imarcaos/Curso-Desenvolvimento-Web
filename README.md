@@ -187,6 +187,9 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C227 - Set vertical alignment of columns individually
    - C228 - Spacing class - margin and padding
    - C229 - Gutters in the layout grid
+   - C230 - About Css grid
+   - C231 - Typography and documentation analysis
+
 
    
    
