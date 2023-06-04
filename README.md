@@ -186,7 +186,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C226 - Change column order
    - C227 - Set vertical alignment of columns individually
    - C228 - Spacing class - margin and padding
-   
+   - C229 - Gutters in the layout grid
+
    
    
    
