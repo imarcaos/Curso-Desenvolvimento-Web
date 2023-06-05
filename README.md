@@ -193,6 +193,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C233 - Brief reference to colors
    - C234 - HTML tables formatation
    - C235 - Alignment of content within a table
+   - C236 - Introduction to forms with Bootstrap
 
    
    
