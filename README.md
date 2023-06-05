@@ -191,7 +191,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C231 - Typography and documentation analysis
    - C232 - Reponsive images with img-fluid
    - C233 - Brief reference to colors
-   - C233 - HTML tables formatation
+   - C234 - HTML tables formatation
+   - C235 - Alignment of content within a table
 
    
    
