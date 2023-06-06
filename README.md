@@ -198,6 +198,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C238 - Form control part 2
    - C239 - Select
    - C240 - Range
+   - C241 - Checkboxes, Radio buttons and switchs
 
    
    
