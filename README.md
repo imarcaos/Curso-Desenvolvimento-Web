@@ -211,6 +211,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C251 - Collapse
    - C252 - Accordion
    - C253 - Dropdwons
+   - C254 - Carousel
    
    
    
