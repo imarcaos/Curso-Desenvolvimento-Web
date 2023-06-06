@@ -202,7 +202,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C242 - Input groups, how to use documentation
    - C243 - Floating labels
    - C244 - Form layout
-   - C244 - Buttons
+   - C245 - Buttons
+   - C246 - Alerts
    
    
    
