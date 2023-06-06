@@ -204,6 +204,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C244 - Form layout
    - C245 - Buttons
    - C246 - Alerts
+   - C247 - Badges
    
    
    
