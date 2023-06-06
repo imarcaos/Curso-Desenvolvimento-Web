@@ -213,6 +213,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C253 - Dropdwons
    - C254 - Carousel
    - C255 - Toasts
+   - C256 - Modals
    
    
    
