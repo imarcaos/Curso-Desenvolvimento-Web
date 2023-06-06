@@ -206,6 +206,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C246 - Alerts
    - C247 - Badges
    - C248 - Cards
+   - C249 - Popovers
    
    
    
