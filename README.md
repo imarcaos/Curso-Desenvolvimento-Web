@@ -214,6 +214,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C254 - Carousel
    - C255 - Toasts
    - C256 - Modals
+   - C257 - How to use Offcanvas
    
    
    
