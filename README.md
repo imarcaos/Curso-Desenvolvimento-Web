@@ -217,6 +217,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C257 - How to use Offcanvas
    - C258 - Other Bootstrap components
    - C259 - Background colors
-   
+   - C260 - Borders
    
    
