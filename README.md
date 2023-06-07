@@ -215,6 +215,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C255 - Toasts
    - C256 - Modals
    - C257 - How to use Offcanvas
+   - C257 - Other Bootstrap components
    
    
    
