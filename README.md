@@ -220,5 +220,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C260 - Borders
    - C261 - Display Class
    - C262 - Flexbox
+   - C263 - Shadows
    
    
