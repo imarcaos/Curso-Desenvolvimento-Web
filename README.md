@@ -231,3 +231,16 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - https://bootstrap.build/
       - https://bootswatch.com/
       - We've tested a theme Slate on bootswatch and downloaded the `bootstrap.min.css` and upload into our HTML to test
+
+- Section 08 - PHP 8 Basic and Intermediate
+   - C269 - What's PHP and still worth learning
+      - PHP: Hypertext Prepocessure (Original: Personal Home Page)
+      - Interpreted Language, server side
+      - Based on `C`syntax
+      - PHP (8.x)
+      - Let's start with the basics and intermediate (PHP Procedural)
+      - Object Orientation
+      - Data Bases
+      - Advanced PHP concepts
+   - C270 - Como funciona o PHP
+   - C271 - Basic requirements to learn PHP
