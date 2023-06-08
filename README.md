@@ -227,5 +227,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C267 - Guiding principles for creating our version of bootstrap - SASS
       - VSC Extension to compile SASS - Live Sass Compiler
       - We've changed the color red (danger) to dark red and put the file bootstrap.css into assets folder to test
-   
-   
+   - C268 - Bootstrap constructor & bootstrap versions ready to use
+      - https://bootstrap.build/
+      - https://bootswatch.com/
+      - We've tested a theme Slate on bootswatch and downloaded the `bootstrap.min.css` and upload into our HTML to test
