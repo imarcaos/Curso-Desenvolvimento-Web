@@ -224,5 +224,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C264 - Other utilities in bootstrap documentation
    - C265 - How to use parts of bootstrap - Grid
    - C266 - Modify values of bootstrap variables
+   - C267 - Guiding principles for creating our version of bootstrap - SASS
+      - VSC Extension to compile SASS - Live Sass Compiler
+      - We've changed the color red (danger) to dark red and put the file bootstrap.css into assets folder to test
    
    
