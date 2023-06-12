@@ -244,9 +244,10 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - Advanced PHP concepts
    - C270 - Como funciona o PHP
    - C271 - Basic requirements to learn PHP
-   - C272 - How to install Xammp for Windows (I use this on my Linux)
+   - C272 - How to install Xammp for Windows (I use this on my Linux - Lampp)
    - C273 - How to install Wampserver for Windows
    - C274 - How to install Mamp for Windows
    - C275 - How to install Laragon for Windows (used by teacher)
    - C276 - How to use Laragon
    - C277 - How to add PHP8 to the Laragon
+   - C278 - Write PHP code
