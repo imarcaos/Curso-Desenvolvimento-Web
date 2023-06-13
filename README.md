@@ -252,3 +252,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C277 - How to add PHP8 to the Laragon
    - C278 - Write PHP code
    - C279 - How to execute PHP in terminal
+   - C280 - PHP comments
+      - `#` single line comments
+      - `//` single line comments
+      - `/* */` multiple line comments
+      - `<!-- -->` multiple line HTML comments
