@@ -251,3 +251,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C276 - How to use Laragon
    - C277 - How to add PHP8 to the Laragon
    - C278 - Write PHP code
+   - C279 - How to execute PHP in terminal
