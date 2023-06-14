@@ -258,3 +258,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - `/* */` multiple line comments
       - `<!-- -->` multiple line HTML comments
    - C281 - PHP variables
+   - C282 - Assign values to variables
