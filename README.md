@@ -265,6 +265,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C286 - Integers
    - C287 - Floats
    - C288 - Null
+   - C289 - Strings
+   
 
 
    
