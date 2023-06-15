@@ -263,5 +263,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C284 - Data Types
    - C285 - Booleans
    - C286 - Integers
+   - C287 - Floats
    
+
    
