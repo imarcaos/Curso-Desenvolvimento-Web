@@ -261,4 +261,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C282 - Assign values to variables
    - C283 - Constants
    - C284 - Data Types
+   - C285 - Booleans
    
