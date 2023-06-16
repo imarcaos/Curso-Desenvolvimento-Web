@@ -268,6 +268,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C289 - Strings
    - C290 - Arrays
    - C291 - Multidimensional Array
+   - C292 - Arrays Functions
+   
 
    
 
