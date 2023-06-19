@@ -275,6 +275,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C296 - Strings operators
    - C297 - Comparison operators
    - C298 - Error control operator
+   - C299 - Increment and decrement operator
 
 
    
