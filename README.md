@@ -273,6 +273,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C294 - Mathematical operators exercises 
    - C295 - Assignment operators
    - C296 - Strings operators
+   - C297 - Comparison operators
 
 
    
