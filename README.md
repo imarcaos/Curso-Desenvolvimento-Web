@@ -270,6 +270,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C291 - Multidimensional Array
    - C292 - Arrays Functions
    - C293 - Mathematical operators
+   - C294 - Mathematical operators exercises
 
 
    
