@@ -271,7 +271,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C292 - Arrays Functions
    - C293 - Mathematical operators
    - C294 - Mathematical operators exercises 
-   - C294 - Assignment operators
+   - C295 - Assignment operators
+   - C296 - Strings operators
 
 
    
