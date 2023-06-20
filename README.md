@@ -277,6 +277,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C298 - Error control operator
    - C299 - Increment and decrement operator
    - C300 - Logical operators
+   - C301 - Operator precedence
 
 
    
