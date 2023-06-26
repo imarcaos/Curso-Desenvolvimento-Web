@@ -285,7 +285,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C306 - Ternary operator
    - C307 - Cycles - While - Do While
    - C308 - Cycles - for
-
+   - C308 - Cycles - foreach
    
 
 
