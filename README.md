@@ -287,6 +287,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C308 - Cycles - for
    - C309 - Cycles - foreach
    - C310 - Break & Continue
+   - C311 - Practical Exercises
+
 
 
    
