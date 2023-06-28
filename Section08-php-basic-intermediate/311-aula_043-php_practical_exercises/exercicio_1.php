@@ -26,7 +26,6 @@
         <p>5 x <?= $i ?> = <?= 5 * $i ?></p>
     <?php endfor; ?>
 
-
 </body>
 
 </html>
