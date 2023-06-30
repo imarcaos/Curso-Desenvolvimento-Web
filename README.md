@@ -290,6 +290,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C311 - Practical Exercises
    - C312 - Introduction to create fuctions
    - C313 - Fuctions parameters
-   
+   - C314 - Variables scope
 
    
