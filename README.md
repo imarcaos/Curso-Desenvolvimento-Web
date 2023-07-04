@@ -292,5 +292,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C313 - Fuctions parameters
    - C314 - Variables scope
    - C315 - File includes with require & include
+   - C316 - Practical example including scripts
+
 
    
