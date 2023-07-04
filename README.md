@@ -293,6 +293,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C314 - Variables scope
    - C315 - File includes with require & include
    - C316 - Practical example including scripts
+   - C317 - Be careful with the scripts path include
 
 
    
