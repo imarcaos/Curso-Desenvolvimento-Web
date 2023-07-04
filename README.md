@@ -294,6 +294,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C315 - File includes with require & include
    - C316 - Practical example including scripts
    - C317 - Be careful with the scripts path include
+   - C318 - Introduce to Sections
+   - C319 - Detailing exercise with sessions
 
 
    
