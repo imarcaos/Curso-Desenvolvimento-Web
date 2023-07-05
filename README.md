@@ -296,6 +296,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C317 - Be careful with the scripts path include
    - C318 - Introduce to Sections
    - C319 - Detailing exercise with sessions
+   - C320 - Session cookie setting
 
 
    
