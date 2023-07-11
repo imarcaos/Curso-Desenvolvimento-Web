@@ -298,6 +298,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C319 - Detailing exercise with sessions
    - C320 - Session cookie setting
    - C321 - What are and how to use cookies in php
+   - C322 - Introduction to handling filesystem php
 
 
    
