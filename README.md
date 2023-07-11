@@ -300,7 +300,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C321 - What are and how to use cookies in php
    - C322 - Introduction to handling filesystem 
    - C323 - File information and save data file_put_content
-   - C324 - Read data from a file
+   - C324 - Read data from a file file_get_contents, fopen, fclose
+   - C325 - Read & write CSV file
 
 
    
