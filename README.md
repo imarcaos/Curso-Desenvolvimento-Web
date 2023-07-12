@@ -306,6 +306,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C327 - Magic Constants
    - C328 - Super global
    - C329 - Capturing variables form URI with $_GET
+   - C330 - Introduction to form handling
 
 
    
