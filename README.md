@@ -303,6 +303,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C324 - Read data from a file file_get_contents, fopen, fclose
    - C325 - Read & write CSV file
    - C326 - Copy, Move, Rename and delete files
-
+   - C327 - Magic Constants
+   
 
    
