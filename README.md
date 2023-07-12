@@ -304,6 +304,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C325 - Read & write CSV file
    - C326 - Copy, Move, Rename and delete files
    - C327 - Magic Constants
-   
+   - C328 - Super global
+
 
    
