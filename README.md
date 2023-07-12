@@ -305,6 +305,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C326 - Copy, Move, Rename and delete files
    - C327 - Magic Constants
    - C328 - Super global
+   - C329 - Capturing variables form URI with $_GET
 
 
    
