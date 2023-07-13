@@ -309,4 +309,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C330 - Introduction to form handling
    - C331 - $_GET versus $_POST
    - C332 - Treatment of different types of inputs
+   - C333 - Form validation part 1
    
