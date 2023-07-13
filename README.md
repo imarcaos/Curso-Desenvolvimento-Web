@@ -307,6 +307,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C328 - Super global
    - C329 - Capturing variables form URI with $_GET
    - C330 - Introduction to form handling
-
+   - C331 - $_GET versus $_POST
 
    
