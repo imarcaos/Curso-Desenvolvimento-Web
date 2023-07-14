@@ -314,3 +314,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C335 - Simple and Complex data validation
    - C336 - Error related functions
    - C337 - Error handling
+   - C338 - Exercise 1
