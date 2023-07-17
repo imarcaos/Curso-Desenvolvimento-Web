@@ -315,3 +315,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C336 - Error related functions
    - C337 - Error handling
    - C338 - Exercise 1
+   - C339 - Exercise 2
