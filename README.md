@@ -322,3 +322,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 - Section 09 - PHP 8 Object Oriented (OOP)
    - C342 - Introduction to the Module
    - C343 - Class & Objects
+   - C344 - How to write a class and instatiate an object
