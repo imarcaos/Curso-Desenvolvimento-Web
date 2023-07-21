@@ -327,3 +327,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C346 - Constructor
    - C347 - Destructor
    - C348 - Inheritance
+   - C349 - Overriding inherited methods
