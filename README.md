@@ -324,3 +324,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C343 - Class & Objects
    - C344 - How to write a class and instatiate an object
    - C345 - Acess Modifiers
+   - C346 - Constructor
+   
