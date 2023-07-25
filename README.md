@@ -330,4 +330,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C349 - Overriding inherited methods
    - C350 - Prevent class or method inheritance
    - C351 - Abstract Classes
+   - C352 - Creating classes from interfaces
    
