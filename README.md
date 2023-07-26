@@ -333,4 +333,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C352 - Creating classes from interfaces
    - C353 - What are traits & how to use
    - C354 - Static Methods
+   - C355 - Static properties
+   
    
