@@ -340,6 +340,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - Encapsulation - leave public only what is fundamental in a class
       - Inheritance - possibility to create class structures that derive from one another
       - Polymorphism -  possibility to create classes with different functionalities from the interfaces
+   - C358 - Exercise 1
 
 
    
