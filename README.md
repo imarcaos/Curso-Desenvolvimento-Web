@@ -335,5 +335,11 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C354 - Static Methods
    - C355 - Static properties
    - C356 - How to use namespaces and your utility
+   - C357 - Main concepts of OOP - summary
+      - Abstraction - provide a set of complex code blocks to avoid repeating code
+      - Encapsulation - leave public only what is fundamental in a class
+      - Inheritance - possibility to create class structures that derive from one another
+      - Polymorphism -  possibility to create classes with different functionalities from the interfaces
+
 
    
