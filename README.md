@@ -344,6 +344,9 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C359 - Exercise 2
    - C360 - Exercise 3
    - C361 - Exercise 4
+   - All module organization was modified, so the class C370 is now C332
+   - C332 - Strict types declaration
+
 
 
    
