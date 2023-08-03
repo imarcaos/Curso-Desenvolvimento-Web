@@ -346,6 +346,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C361 - Exercise 4
    - All module organization was modified, so the class C370 is now C332
    - C332 - Strict types declaration
+   - C333 - Readonly properties
 
 
 
