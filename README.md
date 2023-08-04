@@ -356,6 +356,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 - Section 10 - MySQL and Basic SQL
    - C339 - Introduction to the Module
    - C340 - What's a database
+   - C341 - What's MySQL
 
 
 
