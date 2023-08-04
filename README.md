@@ -348,6 +348,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C332 - Strict types declaration
    - C333 - Readonly properties
    - C334 - Call Constructor from Main Class
+   - C335 - Constants inside the class
 
 
 
