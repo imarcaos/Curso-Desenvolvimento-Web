@@ -347,6 +347,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - All module organization was modified, so the class C370 is now C332
    - C332 - Strict types declaration
    - C333 - Readonly properties
+   - C334 - Call Constructor from Main Class
 
 
 
