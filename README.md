@@ -351,6 +351,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C335 - Constants inside the class
    - C336 - Classes autoload
    - C337 - Useful functions for checking classes
+   - C338 - Important notions
 
 
 
