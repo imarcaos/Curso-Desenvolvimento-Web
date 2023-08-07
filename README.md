@@ -359,6 +359,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C341 - What's MySQL
    - C342 - The Structured Query Language(SQL)
    - C343 - Main concepts and terms in relational databases
+   - C344 - Schema of Data bases and data types
 
 
 
