@@ -364,6 +364,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - 1 How to install HeidiSQL on [Linux Ubuntu](https://www.youtube.com/watch?v=O6p0L8u3RqQ)
       - 2 How to install HeidiSQL on [Linux Ubuntu](https://www.youtube.com/watch?v=JATWzkN316Q)
    - C346 - Creation of database tables
+   - C347 - Definition of keys and relationships within the database
 
 
    
