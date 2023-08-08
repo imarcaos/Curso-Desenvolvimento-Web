@@ -366,7 +366,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C346 - Creation of database tables
    - C347 - Definition of keys and relationships within the database
    - C348 - Inserting records into the database via SQL
-   
+   - C349 - How to delete and import database
+
 
 
 
