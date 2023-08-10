@@ -368,9 +368,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C348 - Inserting records into the database via SQL
    - C349 - How to delete and import database
    - C350 - Introduction to sql statements part1
-
-
-
-
-
-   
+   - C351 - Introduction to sql statements part2   
