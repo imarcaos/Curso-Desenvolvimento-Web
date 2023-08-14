@@ -371,3 +371,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C351 - Introduction to sql statements part2
    - C352 - Import and export databases on HiediSQL  
    - C353 - How to create a database with MySQL Workbench
+   - C354 - How to create a database with PhpMyadmin
