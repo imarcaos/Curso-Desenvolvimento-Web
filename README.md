@@ -373,3 +373,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C353 - How to create a database with MySQL Workbench
    - C354 - How to create a database with PhpMyadmin
    - C355 - Pure SQL vs Query Builder vs ORM (Object Relational Mapping)
+
+- Section 11 - PHP Connection to MySQL
+   - C356 - Introduction to the Module
