@@ -380,3 +380,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C358 - Database import and pdo requirements
    - C359 - Connect via PDO and error control
    - C360 - Get results executing queries
+   - C361 - Get results in differents formats
