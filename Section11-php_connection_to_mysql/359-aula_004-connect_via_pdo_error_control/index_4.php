@@ -9,7 +9,7 @@ acontece um erro.
 
 $database = 'udemy_loja_onlinexxxxxxxxxxxxx';
 $username = 'user_loja_web';
-$password = 'c2hifo8akeka5iriKOT4X2N2NIG3jE';
+$password = 'bO13VOPiMaBA';
 
 try {
 
@@ -19,21 +19,19 @@ try {
     // neste caso, sendo o padrão, indica que o modo de erro é
     // a apresentação de exceções.
     $ligacao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
+
     $estado = $ligacao->getAttribute(PDO::ATTR_CONNECTION_STATUS);
     echo $estado;
 
     $ligacao = null;
+} catch (PDOException $err) {
 
-} catch(PDOException $err){
-    
     // vamos ver o que o $err contém
     echo '<pre>';
     print_r($err);
 
     echo '<hr>';
     print_r($err->errorInfo);
-
 }
 
 /*

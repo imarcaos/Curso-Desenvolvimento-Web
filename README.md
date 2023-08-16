@@ -378,3 +378,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C356 - Introduction to the Module
    - C357 - PHP MySQLi (MySQL improved) or PDO (PHP Data Objects)
    - C358 - Database import and pdo requirements
+   - C359 - Connect via PDO and error control

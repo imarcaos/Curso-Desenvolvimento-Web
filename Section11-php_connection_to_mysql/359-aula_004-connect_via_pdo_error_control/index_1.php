@@ -10,7 +10,7 @@ importada no vídeo anterior.
 // 1. definir as propriedades da ligação
 $database = 'udemy_loja_online';
 $username = 'user_loja_web';
-$password = 'c2hifo8akeka5iriKOT4X2N2NIG3jE';
+$password = 'bO13VOPiMaBA';
 
 // Efetuar a ligação.
 // Para isso vamos criar uma instância da classe PDO.

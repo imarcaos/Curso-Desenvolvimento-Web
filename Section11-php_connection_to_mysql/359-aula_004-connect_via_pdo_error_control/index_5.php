@@ -9,7 +9,7 @@ Deixámos de ter o bloco try... catch.
 
 $database = 'udemy_loja_online';
 $username = 'user_loja_web';
-$password = 'c2hifo8akeka5iriKOT4X2N2NIG3jE';
+$password = 'bO13VOPiMaBA';
 
 $ligacao = new PDO("mysql:host=localhost;dbname=$database", $username, $password);
 $ligacao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

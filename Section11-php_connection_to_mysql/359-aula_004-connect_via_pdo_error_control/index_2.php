@@ -8,7 +8,7 @@
 // definir as propriedades da ligação
 $database = 'udemy_loja_onlinexxxxxxx';  // ESTA BASE DE DADOS NÃO EXISTE.
 $username = 'user_loja_web';
-$password = 'c2hifo8akeka5iriKOT4X2N2NIG3jE';
+$password = 'bO13VOPiMaBA';
 
 // efetuar a ligação
 $ligacao = new PDO("mysql:host=localhost;dbname=$database", $username, $password);

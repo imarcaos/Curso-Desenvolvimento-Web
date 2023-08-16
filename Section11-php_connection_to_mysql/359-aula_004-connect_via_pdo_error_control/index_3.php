@@ -8,9 +8,9 @@ os erros de conexão, para a eventualidade de acontecerem.
 */
 
 // definir as propriedades da ligação
-$database = 'udemy_loja_online';
+$database = 'udemy_loja_online'; // teste modificando o nome da db
 $username = 'user_loja_web';
-$password = 'c2hifo8akeka5iriKOT4X2N2NIG3jE';
+$password = 'bO13VOPiMaBA';
 
 // Vamos colocar a ligação dentro de um bloco try... catch
 try {
@@ -23,9 +23,8 @@ try {
     echo $estado;
 
     $ligacao = null;
+} catch (PDOException $err) {
 
-} catch(PDOException $err){
-    
     echo 'ERRO: ' . $err->getMessage();
 }
 
