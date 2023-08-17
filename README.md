@@ -381,3 +381,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C359 - Connect via PDO and error control
    - C360 - Get results executing queries
    - C361 - Get results in differents formats
+   - C362 - Show data from a query
