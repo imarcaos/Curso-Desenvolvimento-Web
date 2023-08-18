@@ -386,3 +386,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C364 - SQL injection - insurance problem (!very important)
    - C365 - More security with parameterized queries
    - C366 - Control communications with transactions
+   - C367 - Conclusion about we've seen until now
