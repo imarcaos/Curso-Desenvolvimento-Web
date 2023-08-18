@@ -384,3 +384,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C362 - Show data from a query
    - C363 - Show data in an HTML table
    - C364 - SQL injection - insurance problem (!very important)
+   - C365 - More security with parameterized queries
