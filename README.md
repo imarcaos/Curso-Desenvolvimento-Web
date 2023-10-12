@@ -388,3 +388,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C366 - Control communications with transactions
    - C367 - Conclusion about we've seen until now
    - C368 - Create Class for MySql administration via PDO
+   - C369 - Create a Database with PHP

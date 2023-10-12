@@ -7,9 +7,9 @@ Esta foi a estrutura que usámos durante os primeiros vídeos deste módulo.
 */
 
 // dados de ligação
-$database = 'loja_web';
+$database = 'udemy_loja_online';
 $username = 'user_loja_web';
-$password = 'bO13VOPiMaBA';
+$password = '';
 
 // ligação
 $ligacao = new PDO("mysql:host=localhost;dbname=$database", $username, $password);

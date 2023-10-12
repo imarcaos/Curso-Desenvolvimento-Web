@@ -2,6 +2,13 @@
 
 use sys4soft\Database;
 
+// define('MYSQL_CONFIG', [
+//     'host' => 'localhost',
+//     'database' => 'bd_stock',
+//     'username' => 'root',
+//     'password' => '',
+// ]);
+
 define('MYSQL_CONFIG', [
     'host' => 'localhost',
     'database' => 'bd_stock',
