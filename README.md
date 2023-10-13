@@ -389,3 +389,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C367 - Conclusion about we've seen until now
    - C368 - Create Class for MySql administration via PDO
    - C369 - Create a Database with PHP
+   - C370 - Submission data form to data base ex.015
