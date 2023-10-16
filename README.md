@@ -392,3 +392,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C370 - Submission data form to data base ex.015
    - C371 - Data view last exercise ex.016
    - C372 - Conclusion and practical crud exercises
+   - C373 - Descriptive memory of the application ex.018
