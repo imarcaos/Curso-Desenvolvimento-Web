@@ -390,3 +390,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C368 - Create Class for MySql administration via PDO
    - C369 - Create a Database with PHP
    - C370 - Submission data form to data base ex.015
+   - C371 - Data view last exercise ex.016
+   - C372 - Conclusion and practical crud exercises
