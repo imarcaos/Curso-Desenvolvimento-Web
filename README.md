@@ -393,3 +393,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C371 - Data view last exercise ex.016
    - C372 - Conclusion and practical crud exercises
    - C373 - Descriptive memory of the application ex.018
+   - C374 - Presentation of the application's HTML ex.019
