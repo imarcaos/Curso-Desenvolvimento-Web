@@ -394,3 +394,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C372 - Conclusion and practical crud exercises
    - C373 - Descriptive memory of the application ex.018
    - C374 - Presentation of the application's HTML ex.019
+   - C375 - Development of business rules 1-6 ex.020
