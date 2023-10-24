@@ -399,3 +399,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C377 - Development of business rules 3-6 ex.022
    - C378 - Development of business rules 4-6 ex.023
    - C379 - Development of business rules 5-6 ex.024
+   - C380 - Development of business rules 6-6 ex.025
