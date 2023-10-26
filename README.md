@@ -401,3 +401,7 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C379 - Development of business rules 5-6 ex.024
    - C380 - Development of business rules 6-6 ex.025
    - C380 - Conclusions
+
+- Section 12 - Fundamental SQL
+   - C382 - Introduction to the Module
+   - C383 - Importing the database and using it in HeidiSQL
