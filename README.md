@@ -407,3 +407,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C383 - Importing the database and using it in HeidiSQL
    - C384 - Importing the database and using it in MySQL Workbench
    - C385 - Importing the database and using it in PhpMyAdmin
+   - C386 - Some notes about the sql syntax
