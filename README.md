@@ -411,3 +411,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C387 - Introduction to select - ex.006
    - C388 - Order data with ORDER BY - ex.007
    - C389 - Limit the number of records with Limit&Offset- ex.008
+   - C390 - Obtain unique data with Distinct- ex.009
