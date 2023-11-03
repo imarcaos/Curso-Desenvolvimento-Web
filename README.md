@@ -413,3 +413,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C389 - Limit the number of records with Limit&Offset- ex.008
    - C390 - Obtain unique data with Distinct- ex.009
    - C391 - Introduction to the Where clause- ex.010
+   - C392 - Comparison operators- ex.011
