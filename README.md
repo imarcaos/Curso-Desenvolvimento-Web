@@ -415,3 +415,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C391 - Introduction to the Where clause- ex.010
    - C392 - Comparison operators- ex.011
    - C393 - Logical operators part1- ex.012
+   - C394 - Logical operators part1- ex.013
