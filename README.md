@@ -417,3 +417,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C393 - Logical operators part1- ex.012
    - C394 - Logical operators part2- ex.013
    - C395 - Is null and Is not null - ex.014
+   - C396 - Alias - ex.015
