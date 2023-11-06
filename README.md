@@ -420,3 +420,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C396 - Alias - ex.015
    - C397 - Concat and Concat_ws - ex.016
    - C398 - Organization of a query statement - ex.017
+   - C399 - Introduction to joins - ex.018
