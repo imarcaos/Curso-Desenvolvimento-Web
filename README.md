@@ -422,3 +422,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C398 - Organization of a query statement - ex.017
    - C399 - Introduction to joins - ex.018
    - C400 - Practical exercises with Joins part1 - ex.019
+   - C401 - Practical exercises with Joins part2 - ex.020
