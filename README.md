@@ -424,3 +424,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C400 - Practical exercises with Joins part1 - ex.019
    - C401 - Practical exercises with Joins part2 - ex.020
    - C402 - Aggregation functions Count - ex.021
+   - C403 - Aggregation functions Min and Max - ex.022
