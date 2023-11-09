@@ -426,3 +426,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C402 - Aggregation functions Count - ex.021
    - C403 - Aggregation functions Min and Max - ex.022
    - C404 - Aggregation functions Avg and Sum - ex.023
+   - C405 - Introduction to using subqueries and group by - ex.024
