@@ -428,3 +428,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C404 - Aggregation functions Avg and Sum - ex.023
    - C405 - Introduction to using subqueries and group by - ex.024
    - C406 - Group by - more examples- ex.025
+   - C407 - Having - ex.026
