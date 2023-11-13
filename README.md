@@ -431,3 +431,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C407 - Having - ex.026
    - C408 - Union and Union all - ex.027
    - C409 - Simple Case and Searched Case - ex.028
+   - C410 - Insert - ex.029
