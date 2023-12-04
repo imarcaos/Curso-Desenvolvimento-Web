@@ -435,3 +435,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C411 - Update - ex.030
    - C412 - Delete - ex.031
    - C413 - SQL data types - ex.032
+   - C414 - Create Table - ex.033
