@@ -439,3 +439,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C415 - Primary key and Foreing key - ex.034
    - C416 - Alter Table - ex.035
    - C417 - Drop Table and Truncate table - ex.036
+   - C418 - Exercices with Online Store - ex.037
