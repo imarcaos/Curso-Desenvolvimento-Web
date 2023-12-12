@@ -444,3 +444,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C420 - Exercices with Online Store pt3 - ex.039
    - C421 - Insert new order on Online Store - ex.040
    - C422 - Delete an order in the Online Store - ex.041
+   - C423 - Useful SQL functions pt1 - ex.042
