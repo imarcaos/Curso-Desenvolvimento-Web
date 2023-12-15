@@ -449,3 +449,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C425 - Useful SQL functions Numbers - ex.044
    - C426 - Useful SQL functions dates-hours - ex.045
    - C427 - Final considerations of the module
+
+- Section 13 - PHP Level 8 Advanced
+   - C428 - Introduction to the Module
