@@ -447,3 +447,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C423 - Useful SQL functions Strings pt1 - ex.042
    - C424 - Useful SQL functions Strings pt2 - ex.043
    - C425 - Useful SQL functions Numbers - ex.044
+   - C426 - Useful SQL functions dates-hours - ex.045
