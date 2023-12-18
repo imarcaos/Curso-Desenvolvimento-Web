@@ -454,3 +454,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C428 - Introduction to the Module
    - C429 - PHP frameworks
    - C430 - The application we are going to create
+   - C431 - What is composer
+      - How to install on Windows 11
+      - I've made the instalation on Linux Mint
