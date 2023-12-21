@@ -457,3 +457,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C431 - What is composer
       - How to install on Windows 11
       - I've made the instalation on Linux Mint
+   - C432 - Creation of the initial project structure
