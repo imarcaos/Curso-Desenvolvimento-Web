@@ -7,5 +7,15 @@
             "name": "Marcos Melo"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "bng\\Controllers\\": [
+                "app/controllers"
+            ]
+        },
+        "files": [
+            "app/config.php"
+        ]
+    }
 }

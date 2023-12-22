@@ -458,3 +458,6 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - How to install on Windows 11
       - I've made the instalation on Linux Mint
    - C432 - Creation of the initial project structure
+   - C433 - Autoload with Composer
+      - Extension we need in VSC: PHP Intelephense, Fold/unfold all icone, Random String Generator
+   - 
