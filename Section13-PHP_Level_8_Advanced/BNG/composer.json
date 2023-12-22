@@ -12,6 +12,9 @@
         "psr-4": {
             "bng\\Controllers\\": [
                 "app/controllers"
+            ],
+            "bng\\System\\": [
+                "app/system"
             ]
         },
         "files": [
