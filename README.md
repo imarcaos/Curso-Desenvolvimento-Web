@@ -440,7 +440,8 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C416 - Alter Table - ex.035
    - C417 - Drop Table and Truncate table - ex.036
    - C418 - Exercices with Online Store pt1 - ex.037
-   - C419 - Exercices with Online Store pt2 - ex.038
+   - C419 - Exercices with Online Store pt2 - ex.038   - C419 - Exercices with Online Store pt2 - ex.038
+
    - C420 - Exercices with Online Store pt3 - ex.039
    - C421 - Insert new order on Online Store - ex.040
    - C422 - Delete an order in the Online Store - ex.041
@@ -461,3 +462,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C433 - Autoload with Composer
       - Extension we need in VSC: PHP Intelephense, Fold/unfold all icone, Random String Generator
    - C434 - Routing System
+   - C435 - Control Routing Test
