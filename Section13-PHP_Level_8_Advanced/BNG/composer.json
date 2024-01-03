@@ -18,7 +18,8 @@
             ]
         },
         "files": [
-            "app/config.php"
+            "app/config.php",
+            "app/helpers/functions.php"
         ]
     }
 }
