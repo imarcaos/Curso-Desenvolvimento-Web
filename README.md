@@ -466,3 +466,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C436 - Add a file with functions
    - C437 - Function to debug the results
    - C438 - Visualization Layer Base Engine
+   - C439 - Data visualization in our application
