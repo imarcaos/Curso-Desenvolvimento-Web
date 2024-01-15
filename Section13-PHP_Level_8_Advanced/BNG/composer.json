@@ -13,6 +13,9 @@
             "bng\\Controllers\\": [
                 "app/controllers"
             ],
+            "bng\\Models\\": [
+                "app/models"
+            ],
             "bng\\System\\": [
                 "app/system"
             ]
