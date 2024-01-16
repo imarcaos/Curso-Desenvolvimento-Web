@@ -1,6 +1,6 @@
 <?php
 
-define('APP_NAME', 'Basic Name Gathering');
+define('APP_NAME',  'Basic Name Gathering');
 
 // database
 define('MYSQL_HOST',        'localhost');

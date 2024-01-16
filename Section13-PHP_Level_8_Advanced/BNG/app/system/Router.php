@@ -15,25 +15,25 @@ class Router
         $method = 'index';
 
         // check uri parameters
-        if (isset($_GET['ct'])) {
+        if(isset($_GET['ct'])){
             $controller = $_GET['ct'];
         }
 
-        if (isset($_GET['mt'])) {
+        if(isset($_GET['mt'])){
             $method = $_GET['mt'];
         }
 
-        // method paramenters
+        // method parameters
         $parameters = $_GET;
 
         // remove controller from parameters
-        if (key_exists("ct", $parameters)) {
-            unset($parameters['ct']);
+        if(key_exists("ct", $parameters)) {
+            unset($parameters["ct"]);
         }
 
         // remove method from parameters
-        if (key_exists("mt", $parameters)) {
-            unset($parameters['mt']);
+        if(key_exists("mt", $parameters)) {
+            unset($parameters["mt"]);
         }
 
         // tries to instanciate the controller and execute the method

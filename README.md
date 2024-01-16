@@ -469,3 +469,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C439 - Data visualization in our application
    - C440 - It's time to add support for mysql
    - C441 - Finalization of our framework
+   - C442 - Framework with all views

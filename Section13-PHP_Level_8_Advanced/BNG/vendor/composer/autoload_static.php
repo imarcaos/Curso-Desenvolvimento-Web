@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827
+class ComposerStaticInit080e2ccbecac0b0a0d365cb20495c659
 {
     public static $files = array (
         '9792b02da3111b62997015981f2467d4' => __DIR__ . '/../..' . '/app/config.php',
@@ -39,7 +39,6 @@ class ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'bng\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'bng\\Controllers\\Main' => __DIR__ . '/../..' . '/app/controllers/Main.php',
-        'bng\\Models\\Agents' => __DIR__ . '/../..' . '/app/models/Agents.php',
         'bng\\Models\\BaseModel' => __DIR__ . '/../..' . '/app/models/BaseModel.php',
         'bng\\System\\Database' => __DIR__ . '/../..' . '/app/system/Database.php',
         'bng\\System\\Router' => __DIR__ . '/../..' . '/app/system/Router.php',
@@ -48,9 +47,9 @@ class ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit050f987ef98eb5e59be02efdbdc4b827::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit080e2ccbecac0b0a0d365cb20495c659::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit080e2ccbecac0b0a0d365cb20495c659::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit080e2ccbecac0b0a0d365cb20495c659::$classMap;
 
         }, null, ClassLoader::class);
     }
