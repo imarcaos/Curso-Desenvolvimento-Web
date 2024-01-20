@@ -471,3 +471,5 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C441 - Finalization of our framework
    - C442 - Framework with all views
    - C443 - Start of application development
+   - C444 - Login form validation
+   - C445 - Login and database verification
