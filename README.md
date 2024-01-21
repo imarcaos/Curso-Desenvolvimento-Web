@@ -473,3 +473,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C443 - Start of application development
    - C444 - Login form validation
    - C445 - Login and database verification
+   - C446 - Validating values with filter_var
