@@ -474,3 +474,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C444 - Login form validation
    - C445 - Login and database verification
    - C446 - Validating values with filter_var
+   - C447 - Data encryption with AES_ENCRYPT and DECRYPT no SQL
