@@ -100,16 +100,26 @@ class Main extends BaseController
         $model = new Agents();
         $result = $model->check_login($username, $password);
         if($result['status']) {
-            echo 'OK!';
-        } else {
-            echo 'NOK!';
+            
+            // invalid login
+            $_SESSION['server_error'] = 'Login inválido';
+            $this->login_frm();
+            return;
         }
+        
+        // load user information to the session
+        $results = $model->get_user_data($username);
+        printData($results);
+
+        // update the last login
+
+        // go to main page
 
     }
 }
 
 /*
 admin@bng.com - Aa123456
-agent1@bng.com - Aa123456
-agent2@bng.com - Aa123456
+agente1@bng.com - Aa123456
+agente2@bng.com - Aa123456
 */
