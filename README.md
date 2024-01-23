@@ -477,3 +477,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C447 - Data encryption with AES_ENCRYPT and DECRYPT no SQL
    - C448 - Encryption and password verification
    - C449 - Presentation of login results
+   - C450 - Valid Login and last login record

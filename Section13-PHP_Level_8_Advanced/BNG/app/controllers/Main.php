@@ -14,6 +14,10 @@ class Main extends BaseController
             $this->Login_frm();
             return;
         }
+
+        $this->view('layouts/html_header');
+        echo '<h3 class="text-white text-center">Olá Mundo!</h3>';
+        $this->view('layouts/html_footer');
     }
 
     // =======================================================
@@ -99,21 +103,24 @@ class Main extends BaseController
 
         $model = new Agents();
         $result = $model->check_login($username, $password);
-        if($result['status']) {
-            
+        if(!$result['status']) {            
             // invalid login
-            $_SESSION['server_error'] = 'Login inválido';
+            $_SESSION['server_error'] = 'Login inválido.';
             $this->login_frm();
             return;
         }
         
         // load user information to the session
         $results = $model->get_user_data($username);
-        printData($results);
+        
+        // add user to session
+        $_SESSION['user'] = $results['data'];
 
         // update the last login
+        $results = $model->set_user_last_login($_SESSION['user']->id);
 
         // go to main page
+        $this->index();
 
     }
 }
