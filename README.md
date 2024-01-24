@@ -478,3 +478,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C448 - Encryption and password verification
    - C449 - Presentation of login results
    - C450 - Valid Login and last login record
+   - C451 - Navbar, Logout and Homepage after login
