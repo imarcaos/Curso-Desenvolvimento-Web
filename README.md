@@ -480,3 +480,4 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C450 - Valid Login and last login record
    - C451 - Navbar, Logout and Homepage after login
    - C452 - Log records with Monolog ex.25
+   - C453 - Log records with Monolog on our app BNG
