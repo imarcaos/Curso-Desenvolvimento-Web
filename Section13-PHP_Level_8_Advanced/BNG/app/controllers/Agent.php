@@ -18,6 +18,7 @@ class Agent extends BaseController {
         $model = new Agents();
         $results = $model->get_agent_clients($id_agent);
 
+
         $data['user'] = $_SESSION['user'];
         $data['clients'] = $results['data'];
 
@@ -26,6 +27,16 @@ class Agent extends BaseController {
         $this->view('agent_clients', $data);
         $this->view('footer');
         $this->view('layouts/html_footer');
+    }
+
+    // =======================================================
+    public function edit_client($id) {
+        echo "editar $id";
+    }
+
+    // =======================================================
+    public function delete_client($id) {
+        echo "eliminar $id";
     }
 
 
