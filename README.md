@@ -484,4 +484,9 @@ A lista abaixo estarÃ¡ dividida em seÃ§Ãµes e eventualmente os exercÃ­cios que e
    - C454 - Bug fix on logout and speed up the login process
    - C455 - Presentation of each agent's clients part1
    - C456 - Presentation of each agent's clients part2
-   - C457 - Presentation of the form to add the customer
+   - C457 - Apresentação do Formulário para Adicionar Cliente
+   - C458 - BNG-Adição da biblioteca de JavaScript Flatpickr
+      - Foi explicado o processo para adição da biblioteca para carregar um calendário
+      - que funciona em todos os navegadores para evitar de usar o do HTML5.
+      - Site da Biblioteca: https://flatpickr.js.org/
+   - C459

@@ -18,7 +18,6 @@ class Agent extends BaseController {
         $model = new Agents();
         $results = $model->get_agent_clients($id_agent);
 
-
         $data['user'] = $_SESSION['user'];
         $data['clients'] = $results['data'];
 
@@ -36,8 +35,9 @@ class Agent extends BaseController {
         }
 
         $data['user'] = $_SESSION['user'];
+        $data['flatpickr'] = true;
 
-        $this->view('layouts/html_header');
+        $this->view('layouts/html_header', $data);
         $this->view('navbar', $data);
         $this->view('insert_client_frm');
         $this->view('footer');
