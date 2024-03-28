@@ -489,4 +489,4 @@ A lista abaixo estarÃ¡ dividida em seÃ§Ãµes e eventualmente os exercÃ­cios que e
       - Foi explicado o processo para adição da biblioteca para carregar um calendário
       - que funciona em todos os navegadores para evitar de usar o do HTML5.
       - Site da Biblioteca: https://flatpickr.js.org/
-   - C459
+   - C459 - Validação do Formulário de inserção de Novo Cliente
