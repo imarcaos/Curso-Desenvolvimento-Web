@@ -14,12 +14,27 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
 
 <a href="https://www.youtube.com/@JLDRPT">Canal Youtube do Professor João Ribeiro </a>
 
+Legendas:
+   . Seção-S
+   . Aula-A
 
-- Section 01 - Welcome to Web Development
-
-- Section 02 - HTML5 e CSS3 - Level 1 - Introduction to HTML5 and CSS 3
-    - Initial class with basic HTML
-    - Class 08-09 - Basic Page with some elements: title, h1, ul-ol list, p, links, image
+- Seção 01 - Bem Vindo ao Desenvolvimento WEB
+   - A001 - Bem Vindo ao Curso
+   - A002 - Módulos Disponíveis Atualmente
+   - A003 - Como ter Acesso aos Recursos
+   - A004 - Changlog
+- Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
+   - A005 - Introdução ao Módulo
+   - A006 - Preparação do Ambiente de Estudo
+      - Navegador(Browse), Editor de Códigos (Visual Studio Code).
+   - A007 - O que é o HTML5 & Porquê o CSS3?
+   - A008 - Primeiro contacto com o HTML5 na prática
+   - A009 - Contrução da página HTML5 Básica - Parte 1
+      - Alguns elementos: title, h1
+   - A010 - Contrução da página HTML5 Básica - Parte 2
+      - Alguns elementos: ul-ol list, p, links, image
+   - A011 - O que já sabemos de HTML5?
+   - A012 - Vários Elementos para Conteúdo de Texto
     - C13 - Exercicio Pratico com Atributos de HTML5
     - C15 - Construindo o Primeiro Website so com HTML5
     - C16 - CSS Selector in Practice
@@ -74,9 +89,9 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
       - gap, row-gap and column-gap
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
-   - C105 - Flexbox exercise 1
-   - C106 - Flexbox exercise 2
-   - C107 - Flexbox exercise 3
+   - C105 - Exercício 1 Flexbox - Menu, Content.
+   - C106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
+   - C107 - Exercício 3 Flexbox - Formulário
    - C109 - CSS Grid Container
    - C110 - CSS Grid Template Rows & Columns
    - C111 - CSS Grid Template Areas
@@ -482,11 +497,12 @@ A lista abaixo estará dividida em seções e eventualmente os exercícios que e
    - C452 - Log records with Monolog ex.25
    - C453 - Log records with Monolog on our app BNG
    - C454 - Bug fix on logout and speed up the login process
-   - C455 - Presentation of each agent's clients part1
-   - C456 - Presentation of each agent's clients part2
-   - C457 - Apresenta��o do Formul�rio para Adicionar Cliente
-   - C458 - BNG-Adi��o da biblioteca de JavaScript Flatpickr
-      - Foi explicado o processo para adi��o da biblioteca para carregar um calend�rio
+   - A455 - Apresentação dos Clientes parte 1
+   - A456 - Apresentação dos Clientes parte 2
+   - A457 - Apresentação do Formulário para Adicionar Cliente
+   - A458 - BNG-Adição da biblioteca de JavaScript Flatpickr
+      - Foi explicado o processo para adição da biblioteca para carregar um calendário
       - que funciona em todos os navegadores para evitar de usar o do HTML5.
       - Site da Biblioteca: https://flatpickr.js.org/
-   - C459 - Valida��o do Formul�rio de inser��o de Novo Cliente
+   - A459 - Validação do Formulário de inserção de Novo Cliente
+   - A460 - Datas & Horas no PHP com DateTime - Parte 1
