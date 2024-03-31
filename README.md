@@ -89,7 +89,7 @@ Legendas:
       - gap, row-gap and column-gap
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
-   - C105 - Exercício 1 Flexbox - Menu, Content.
+   - A105 - Exercício 1 Flexbox - Menu, Content.
    - C106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
    - C107 - Exercício 3 Flexbox - Formulário
    - C109 - CSS Grid Container
