@@ -90,7 +90,7 @@ Legendas:
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
    - A105 - Exercício 1 Flexbox - Menu, Content.
-   - C106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
+   - A106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
    - C107 - Exercício 3 Flexbox - Formulário
    - C109 - CSS Grid Container
    - C110 - CSS Grid Template Rows & Columns
