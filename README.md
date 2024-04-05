@@ -91,13 +91,18 @@ Legendas:
       - order, flex-grow, flex-shrink
    - A105 - Exercício 1 Flexbox - Menu, Content.
    - A106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
-   - C107 - Exercício 3 Flexbox - Formulário
-   - C109 - CSS Grid Container
-   - C110 - CSS Grid Template Rows & Columns
-   - C111 - CSS Grid Template Areas
-   - C112 - CSS Grid Row & Column Start End
-   - C115 - Grid Justify Items, Align Items and Place Items
-   - C118 - Grid Items properties review
+   - A107 - Exercício 3 Flexbox - Formulário
+   - A108 - Grid Introdução
+   - A109 - CSS Grid Container
+   - A110 - CSS Grid Template Rows & Columns
+   - A111 - CSS Grid Template Areas
+   - A112 - CSS Grid Row & Column Start End
+   - A113 - CSS Grid Templates
+   - A114 - CSS Grid Espaço entre Areas com Propriedades Gap
+   - A115 - Grid Justify Items, Align Items and Place Items
+   - A116 - CSS Grid Justify Content, Align Content & Place Content
+   - A117 - CSS Grid Outras Propriedades
+   - A118 - CSS Grid Recapitulando Propriedades dos Grid Items
    - C119, C120, C121 - Grid Exercise 1, 2 and 3
    - C124 - Media Queries - Mobile First
    - C126 - Media Queries - Breakingpoints
