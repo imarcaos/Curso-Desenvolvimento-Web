@@ -510,6 +510,7 @@ Legendas:
       - que funciona em todos os navegadores para evitar de usar o do HTML5.
       - Site da Biblioteca: https://flatpickr.js.org/
    - A459 - Validação do Formulário de inserção de Novo Cliente
-   - A460 - Datas & Horas no PHP com DateTime - Parte 1
-   - A461 - Datas & Horas no PHP com DateTime - Parte 2
-   - A462 - Cuidado com Os Timezones! O que são e Como Definir em PHP
+   - A460 - Datas & Horas no PHP com DateTime - Parte 1 ex33
+   - A461 - Datas & Horas no PHP com DateTime - Parte 2 ex34
+   - A462 - Cuidado com Os Timezones! O que são e Como Definir em PHP ex35
+   - A463 - Expressões Regulares - Introdução ex036
