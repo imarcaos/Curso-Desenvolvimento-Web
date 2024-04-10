@@ -89,7 +89,7 @@ Legendas:
       - gap, row-gap and column-gap
    - C104 - Flexbox - flex items properties
       - order, flex-grow, flex-shrink
-   - A105 - Exercício 1 Flexbox - Menu, Content.
+   - A105 - Exercício 1 Flexbox - Menu, Content. 
    - A106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
    - A107 - Exercício 3 Flexbox - Formulário
    - A108 - Grid Introdução
@@ -103,7 +103,9 @@ Legendas:
    - A116 - CSS Grid Justify Content, Align Content & Place Content
    - A117 - CSS Grid Outras Propriedades
    - A118 - CSS Grid Recapitulando Propriedades dos Grid Items
-   - C119, C120, C121 - Grid Exercise 1, 2 and 3
+   - A119 - CSS Grid Exercício 1
+   - A120 - CSS Grid Exercício 2
+   - A121 - CSS Grid Exercício 3
    - C124 - Media Queries - Mobile First
    - C126 - Media Queries - Breakingpoints
    - C127 - Media Queries - Hidden items
@@ -471,17 +473,17 @@ Legendas:
    - C426 - Useful SQL functions dates-hours - ex.045
    - C427 - Final considerations of the module
 
-- Section 13 - PHP Level 8 Advanced
-   - C428 - Introduction to the Module
-   - C429 - PHP frameworks
-   - C430 - The application we are going to create
-   - C431 - What is composer
-      - How to install on Windows 11
-      - I've made the instalation on Linux Mint
-   - C432 - Creation of the initial project structure
-   - C433 - Autoload with Composer
-      - Extension we need in VSC: PHP Intelephense, Fold/unfold all icone, Random String Generator
-   - C434 - Routing System
+- Section 13 - PHP 8 Nível Avançado
+   - A428 - Indtrodução ao Módulo
+   - A429 - As Frameworks de PHP
+   - A430 - A aplicação que vamos criar
+   - A431 - O que é Composer e como vamos instalar
+      - Como Instalar no Windows 11
+      - Eu fiz a instalação no Linux Mint
+   - A432 - Criação da Estrutura Inicial do Projeto
+   - A433 - Autoload com Composer
+      - Extensões necessárias no VSC: PHP Intelephense, Fold/unfold all icone, Random String Generator
+   - A434 - O Sistema de Roteamento
    - C435 - Control Routing Test
    - C436 - Add a file with functions
    - C437 - Function to debug the results
