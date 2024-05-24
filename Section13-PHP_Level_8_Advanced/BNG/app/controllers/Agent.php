@@ -43,6 +43,12 @@ class Agent extends BaseController {
            unset($_SESSION['validation_errors']);
         }
 
+        // check if there is a server error
+        if(!empty($_SESSION['server_error'])){
+            $data['server_error'] = $_SESSION['server_error'];
+            unset($_SESSION['server_error']);
+        }
+
         $this->view('layouts/html_header', $data);
         $this->view('navbar', $data);
         $this->view('insert_client_frm', $data);
@@ -116,7 +122,7 @@ class Agent extends BaseController {
             return;
         }
 
-        /* // check if the client already exists with the same name
+        // check if the client already exists with the same name
         $model = new Agents();
         $results = $model->check_if_client_exists($_POST);
 
@@ -127,7 +133,7 @@ class Agent extends BaseController {
             $this->new_client_frm();
             return;
         }
-
+        /* 
         // add new client to the database
         $model->add_new_client_to_database($_POST);
 
