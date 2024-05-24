@@ -3,14 +3,16 @@
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-function check_session(){
+// =======================================================
+function check_session()
+{
     // check if there is an active session
     return isset($_SESSION['user']);
 }
 
-function logger($mensagem = '', $level = 'info')
+// =======================================================
+function logger($message = '', $level = 'info')
 {
-
     // create log channel
     $log = new Logger('app_logs');
     $log->pushHandler(new StreamHandler(LOGS_PATH));
@@ -18,34 +20,58 @@ function logger($mensagem = '', $level = 'info')
     // add log message
     switch ($level) {
         case 'info':
-            $log->info($mensagem);
+            $log->info($message);
             break;
         case 'notice':
-            $log->notice($mensagem);
+            $log->notice($message);
             break;
         case 'warning':
-            $log->warning($mensagem);
+            $log->warning($message);
             break;
         case 'error':
-            $log->error($mensagem);
+            $log->error($message);
             break;
         case 'critical':
-            $log->critical($mensagem);
+            $log->critical($message);
             break;
         case 'alert':
-            $log->alert($mensagem);
+            $log->alert($message);
             break;
         case 'emergency':
-            $log->emergency($mensagem);
+            $log->emergency($message);
             break;
-            
+        
         default:
-            $log->info($mensagem);
+            $log->info($message);
             break;
     }
 }
 
+// =======================================================
+function aes_encrypt($value)
+{
+    // encrypt $value
+    return bin2hex(openssl_encrypt($value, 'aes-256-cbc', OPENSSL_KEY, OPENSSL_RAW_DATA, OPENSSL_IV));
+}
 
+// =======================================================
+function aes_decrypt($value)
+{
+    // decrypt $value
+    if(strlen($value) % 2 != 0){
+        return false;
+    }
+
+    return openssl_decrypt(hex2bin($value), 'aes-256-cbc', OPENSSL_KEY, OPENSSL_RAW_DATA, OPENSSL_IV);
+}
+
+/* // =======================================================
+function get_active_user_name()
+{
+    return $_SESSION['user']->name;
+} */
+
+// =======================================================
 function printData($data, $die = true)
 {
     echo '<pre>';

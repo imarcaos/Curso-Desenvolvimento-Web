@@ -519,3 +519,4 @@ Legendas:
    - A464 - Expressões Regulares na Prática ex037
    - A465 - BNG - Verificação da existência de um Cliente com o mesmo nome
    - A466 - BNG - Inserção de um novo Cliente na Base de Dados
+   - A467 - BNG - Encriptação OpenSSL aplicada ao projeto
