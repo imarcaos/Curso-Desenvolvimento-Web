@@ -518,3 +518,4 @@ Legendas:
    - A463 - Expressões Regulares - Introdução ex036
    - A464 - Expressões Regulares na Prática ex037
    - A465 - BNG - Verificação da existência de um Cliente com o mesmo nome
+   - A466 - BNG - Inserção de um novo Cliente na Base de Dados
