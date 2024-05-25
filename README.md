@@ -520,3 +520,5 @@ Legendas:
    - A465 - BNG - Verificação da existência de um Cliente com o mesmo nome
    - A466 - BNG - Inserção de um novo Cliente na Base de Dados
    - A467 - BNG - Encriptação OpenSSL aplicada ao projeto
+   - A468 - BNG - Recuperar a prática do registo de Logs
+   - A469 - BNG - Formulário para editar Dados de um cliente
