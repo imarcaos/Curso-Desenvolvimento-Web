@@ -530,4 +530,6 @@ Legendas:
    - A475 - BNG - Adicionar o Datatables.Net ao Projeto Principal
    - A476 - Upload de Ficheiros com PHP - introdução
    - A477 - Upload de Ficheiros com PHP - validações, nomes e caminhos
+   - A478 - Ler dados de ficheiros XLSX e CSV com PHPSpreadsheet
+   
    
