@@ -533,6 +533,7 @@ Legendas:
    - A478 - Ler dados de ficheiros XLSX e CSV com PHPSpreadsheet
    - A479 - Escrita de ficheiros XLSX e CSV com PHPSpreadsheet
    - A480 - BNG - Preparação da View para upload de ficheiro
+   - A481 - BNG - Validações e Upload de ficheiro
    
    
    
