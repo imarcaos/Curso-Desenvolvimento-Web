@@ -527,4 +527,5 @@ Legendas:
    - A472 - BNG - Atualização dos dados do cliente na base de dados.
    - A473 - BNG - Eliminar cliente na base de dados
    - A474 - Como adicionar Datatables.Net a um Projeto Web
+   - A475 - BNG - Adicionar o Datatables.Net ao Projeto Principal
    
