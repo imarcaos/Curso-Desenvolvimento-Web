@@ -526,3 +526,5 @@ Legendas:
    - A471 - BNG - Correção do Bug com a data de nascimento.
    - A472 - BNG - Atualização dos dados do cliente na base de dados.
    - A473 - BNG - Eliminar cliente na base de dados
+   - A474 - Como adicionar Datatables.Net a um Projeto Web
+   

@@ -185,7 +185,7 @@ class Agent extends BaseController {
             unset($_SESSION['validation_errors']);
         }
 
-        // check if there is a server erro
+        // check if there is a server error
         if(!empty($_SESSION['server_error'])){
             $data['server_error'] = $_SESSION['server_error'];
             unset($_SESSION['server_error']);
@@ -271,10 +271,8 @@ class Agent extends BaseController {
              $this->edit_client(aes_encrypt($id_client));
              return;
          }
-
-         die('ok');
  
-         /* // check if there is another agent's client with the same name
+         // check if there is another agent's client with the same name
          $model = new Agents();
          $results = $model->check_other_client_with_same_name($id_client, $_POST['text_name']);
  
@@ -292,13 +290,68 @@ class Agent extends BaseController {
          logger(get_active_user_name() . " - atualizou dados do cliente ID: " . $id_client);
  
          // return to the main clients page
-         $this->my_clients(); */
+         $this->my_clients();
          
      }
 
     // =======================================================
-    public function delete_client($id) {
-        echo "eliminar " . aes_decrypt($id);
+    public function delete_client($id)
+    {
+        if (!check_session() || $_SESSION['user']->profile != 'agent') {
+            header('Location: index.php');
+        }
+
+        // check if the $id is valid
+        $id_client = aes_decrypt($id);
+        if(!$id_client){
+
+            // id_client is invalid
+            header('Location: index.php');
+        }
+
+        // loads the model to get the client's data
+        $model = new Agents();
+        $results = $model->get_client_data($id_client);
+
+        if(empty($results['data'])){
+            header('Location: index.php');
+        }
+
+        // display the view
+        $data['user'] = $_SESSION['user'];
+        $data['client'] = $results['data'];
+
+        $this->view('layouts/html_header');
+        $this->view('navbar', $data);
+        $this->view('delete_client_confirmation', $data);
+        $this->view('footer');
+        $this->view('layouts/html_footer');
+    }
+
+    // =======================================================
+    public function delete_client_confirm($id)
+    {
+        if (!check_session() || $_SESSION['user']->profile != 'agent') {
+            header('Location: index.php');
+        }
+
+        // check if the $id is valid
+        $id_client = aes_decrypt($id);
+        if(!$id_client){
+
+            // id_client is invalid
+            header('Location: index.php');
+        }
+
+        // loads the model to delete the client's data
+        $model = new Agents();
+        $model->delete_client($id_client);
+
+        // logger
+        logger(get_active_user_name() . ' - Eliminado o cliente id: ' . $id_client);
+
+        // returns to the agent's main page
+        $this->my_clients();
     }
 
 
