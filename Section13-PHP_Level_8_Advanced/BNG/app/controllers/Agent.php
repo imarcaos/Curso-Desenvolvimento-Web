@@ -201,7 +201,7 @@ class Agent extends BaseController {
      // =======================================================
      public function edit_client_submit()
      {
-         /* if (!check_session() || $_SESSION['user']->profile != 'agent' || $_SERVER['REQUEST_METHOD'] != 'POST') {
+         if (!check_session() || $_SESSION['user']->profile != 'agent' || $_SERVER['REQUEST_METHOD'] != 'POST') {
              header('Location: index.php');
          }
  
@@ -271,8 +271,10 @@ class Agent extends BaseController {
              $this->edit_client(aes_encrypt($id_client));
              return;
          }
+
+         die('ok');
  
-         // check if there is another agent's client with the same name
+         /* // check if there is another agent's client with the same name
          $model = new Agents();
          $results = $model->check_other_client_with_same_name($id_client, $_POST['text_name']);
  
@@ -290,9 +292,8 @@ class Agent extends BaseController {
          logger(get_active_user_name() . " - atualizou dados do cliente ID: " . $id_client);
  
          // return to the main clients page
-         $this->my_clients();
- */
-         printData($_POST);
+         $this->my_clients(); */
+         
      }
 
     // =======================================================

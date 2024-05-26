@@ -522,3 +522,4 @@ Legendas:
    - A467 - BNG - Encriptação OpenSSL aplicada ao projeto
    - A468 - BNG - Recuperar a prática do registo de Logs
    - A469 - BNG - Formulário para editar Dados de um cliente
+   - A470 - BNG - Validação do formulário para editar dados de um cliente.
