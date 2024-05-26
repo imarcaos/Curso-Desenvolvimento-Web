@@ -524,3 +524,4 @@ Legendas:
    - A469 - BNG - Formulário para editar Dados de um cliente
    - A470 - BNG - Validação do formulário para editar dados de um cliente.
    - A471 - BNG - Correção do Bug com a data de nascimento.
+   - A472 - BNG - Atualização dos dados do cliente na base de dados.
