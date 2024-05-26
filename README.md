@@ -474,7 +474,7 @@ Legendas:
    - C427 - Final considerations of the module
 
 - Section 13 - PHP 8 Nível Avançado
-   - A428 - Indtrodução ao Módulo
+   - A428 - Introdução ao Módulo
    - A429 - As Frameworks de PHP
    - A430 - A aplicação que vamos criar
    - A431 - O que é Composer e como vamos instalar
@@ -484,15 +484,15 @@ Legendas:
    - A433 - Autoload com Composer
       - Extensões necessárias no VSC: PHP Intelephense, Fold/unfold all icone, Random String Generator
    - A434 - O Sistema de Roteamento
-   - C435 - Control Routing Test
-   - C436 - Add a file with functions
-   - C437 - Function to debug the results
-   - C438 - Visualization Layer Base Engine
-   - C439 - Data visualization in our application
-   - C440 - It's time to add support for mysql
-   - C441 - Finalization of our framework
-   - C442 - Framework with all views
-   - C443 - Start of application development
+   - A435 - Teste ao Roteamento de Controladores
+   - A436 - Vamos adicionar um ficheiro com funções
+   - A437 - Criar um função para debug de resultados
+   - A438 - Mecanismo base da camada de visualização
+   - A439 - Visualização de dados da nossa aplicação
+   - A440 - É hora de adicionar suporte para MySQL
+   - A441 - Finalização da nossa framework
+   - A442 - A framework com todas as views
+   - A443 - BNG - Início do desenvolvimento da aplicação
    - C444 - Login form validation
    - C445 - Login and database verification
    - C446 - Validating values with filter_var
@@ -528,4 +528,5 @@ Legendas:
    - A473 - BNG - Eliminar cliente na base de dados
    - A474 - Como adicionar Datatables.Net a um Projeto Web
    - A475 - BNG - Adicionar o Datatables.Net ao Projeto Principal
+   - A476 - Upload de Ficheiros com PHP - introdução
    
