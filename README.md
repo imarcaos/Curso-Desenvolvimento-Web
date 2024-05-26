@@ -529,4 +529,5 @@ Legendas:
    - A474 - Como adicionar Datatables.Net a um Projeto Web
    - A475 - BNG - Adicionar o Datatables.Net ao Projeto Principal
    - A476 - Upload de Ficheiros com PHP - introdução
+   - A477 - Upload de Ficheiros com PHP - validações, nomes e caminhos
    
