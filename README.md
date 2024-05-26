@@ -523,3 +523,4 @@ Legendas:
    - A468 - BNG - Recuperar a prática do registo de Logs
    - A469 - BNG - Formulário para editar Dados de um cliente
    - A470 - BNG - Validação do formulário para editar dados de um cliente.
+   - A471 - BNG - Correção do Bug com a data de nascimento.
