@@ -354,5 +354,266 @@ class Agent extends BaseController {
         $this->my_clients();
     }
 
+     // =======================================================
+     public function upload_file_frm()
+     {
+         if (!check_session() || $_SESSION['user']->profile != 'agent') {
+             header('Location: index.php');
+         }
+ 
+         // display the view
+         $data['user'] = $_SESSION['user'];
+ 
+         // check if there is a server error
+         if (!empty($_SESSION['server_error'])) {
+             $data['server_error'] = $_SESSION['server_error'];
+             unset($_SESSION['server_error']);
+         }
+ 
+         // check if there is a report in session
+         if(!empty($_SESSION['report'])){
+             $data['report'] = $_SESSION['report'];
+             unset($_SESSION['report']);
+         }
+ 
+         $this->view('layouts/html_header');
+         $this->view('navbar', $data);
+         $this->view('upload_file_with_clients_frm', $data);
+         $this->view('footer');
+         $this->view('layouts/html_footer');
+     }
+ 
+     // =======================================================
+     public function upload_file_submit()
+     {
+         if (!check_session() || $_SESSION['user']->profile != 'agent') {
+             header('Location: index.php');
+         }
+ 
+         if($_SERVER['REQUEST_METHOD'] != 'POST'){
+             header('Location: index.php');
+         }
+ 
+         // check if there is a uploaded file
+         if(empty($_FILES) || empty($_FILES['clients_file']['name'])){
+             $_SESSION['server_error'] = "Faça o carregamento de um ficheiro XLSX ou CSV.";
+             $this->upload_file_frm();
+             return;
+         }
+ 
+         // check if the uploaded file extension is valid
+         $valid_extensions = ['xlsx', 'csv'];
+         $tmp = explode('.', $_FILES['clients_file']['name']);
+         $extension = end($tmp);
+         if(!in_array($extension, $valid_extensions)){
+ 
+             // logger
+             logger(get_active_user_name() . " - tentou carregar um ficheiro inválido: " . $_FILES['clients_file']['name'], "error");
+ 
+             $_SESSION['server_error'] = "O ficheiro deve ser do tipo XLSX ou CSV.";
+             $this->upload_file_frm();
+             return;
+         }
+ 
+         // check the size of the file: max = 2 MB
+         if($_FILES['clients_file']['size'] > 2000000){
+ 
+             // logger
+             logger(get_active_user_name() . " - tentou carregar um ficheiro inválido: " . $_FILES['clients_file']['name'] . " tamanho máximo excedido.", "error");
+ 
+             $_SESSION['server_error'] = "O ficheiro deve ter, no máximo, 2 MB.";
+             $this->upload_file_frm();
+             return;
+         }
+ 
+         // move file to final destination
+         $file_path = __DIR__ . '/../../uploads/dados_' . time() . '.' . $extension;
+         if(move_uploaded_file($_FILES['clients_file']['tmp_name'], $file_path)){
+ 
+             // validates the header
+             $result = $this->has_valid_header($file_path);
+             if ($result) {
+ 
+                 // header is fine. Load the file information to the database
+                 $results = $this->load_file_data_to_database($file_path);
+                 
+             } else {
+ 
+                 // header is not ok.
+ 
+                 // logger
+                 logger(get_active_user_name() . " - tentou carregar um ficheiro com header incorreto: " . $_FILES['clients_file']['name'], "error");
+ 
+                 $_SESSION['server_error'] = "O ficheiro não tem o header no formato correto.";
+                 $this->upload_file_frm();
+                 return;
+             }
+ 
+         } else {
+ 
+             // logger
+             logger(get_active_user_name() . " - aconteceu um erro inesperado no carregamento do ficheiro: " . $_FILES['clients_file']['name'], "error");
+ 
+             $_SESSION['server_error'] = "Aconteceu um erro inesperado no carregamento do ficheiro.";
+             $this->upload_file_frm();
+             return;
+         }
+     }
+ 
+     // =======================================================
+     private function has_valid_header($file_path)
+     {
+         // validates the file
+         $data = [];
+         $file_info = pathinfo($file_path);
+ 
+         if($file_info['extension'] == 'csv'){
+ 
+             // opens the CSV file to read the header only
+             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
+             $reader->setInputEncoding('UTF-8');
+             $reader->setDelimiter(';');
+             $reader->setEnclosure('');
+             $sheet = $reader->load($file_path);
+             $data = $sheet->getActiveSheet()->toArray()[0];
+ 
+         } else if($file_info['extension'] == 'xlsx') {
+ 
+             // opens the XLSX file to read the header only
+             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+             $reader->setReadDataOnly(true);
+             $spreadsheet = $reader->load($file_path);
+             $data = $spreadsheet->getActiveSheet()->toArray()[0];
+         }
+ 
+         // check if the header content if valid
+         $valid_header = 'name,gender,birthdate,email,phone,interests';
+         return implode(',', $data) == $valid_header ? true : false;
+     }
+ 
+     // =======================================================
+     private function load_file_data_to_database($file_path)
+     {
+         $data = [];
+         $file_info = pathinfo($file_path);
+ 
+         if ($file_info['extension'] == 'csv') {
+ 
+             // opens the CSV file
+             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
+             $reader->setInputEncoding('UTF-8');
+             $reader->setDelimiter(';');
+             $reader->setEnclosure('');
+             $sheet = $reader->load($file_path);
+             $data = $sheet->getActiveSheet()->toArray();
+         } else if ($file_info['extension'] == 'xlsx') {
+ 
+             // opens the XLSX file
+             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+             $reader->setReadDataOnly(true);
+             $spreadsheet = $reader->load($file_path);
+             $data = $spreadsheet->getActiveSheet()->toArray();
+         }
+ 
+         // insert data into database
+         $model = new Agents();
+ 
+         $report = [
+             'total' => 0,
+             'total_carregados' => 0,
+             'total_nao_carregados' => 0
+         ];
+ 
+         // extract the header from $data
+         array_shift($data);
+ 
+         // creates a cicle to insert each record
+         foreach($data as $client){
+ 
+             // check if row contains data or not
+             if(empty($client[0])) continue;
+ 
+             // report
+             $report['total']++;
+ 
+             // check if the client already exists in the database
+             $exists = $model->check_if_client_exists(['text_name' => $client[0]]);
+             if(!$exists['status']){
+ 
+                 // add client to database
+                 $post_data = [
+                     'text_name' => $client[0],
+                     'radio_gender' => $client[1],
+                     'text_birthdate' => $client[2],
+                     'text_email' => $client[3],
+                     'text_phone' => $client[4],
+                     'text_interests' => $client[5],
+                 ];
+ 
+                 $model->add_new_client_to_database($post_data);
+ 
+                 // report
+                 $report['total_carregados']++;
+                 
+             } else {
+                 
+                 // client already exists
+                 $report['total_nao_carregados']++;
+             }
+         }
+ 
+         // logger
+         logger(get_active_user_name() . " - carregamento de ficheiro efetuado: " . $_FILES['clients_file']['name']);
+         logger(get_active_user_name() . " - report: " . json_encode($report));
+ 
+         // set report to display in upload form
+         $report['filename'] = $_FILES['clients_file']['name'];
+         $_SESSION['report'] = $report;
+ 
+         // display the upload form again.
+         $this->upload_file_frm();
+     }
+ 
+     // =======================================================
+     public function export_clients_xlsx()
+     {
+         if (!check_session() || $_SESSION['user']->profile != 'agent') {
+             header('Location: index.php');
+         }
+ 
+         // get all agent clients
+         $model = new Agents();
+         $results = $model->get_agent_clients($_SESSION['user']->id);
+         
+         // add header to collection
+         $data[] = ['name', 'gender', 'birthdate', 'email', 'phone', 'interests', 'created_at', 'updated_at'];
+ 
+         // place all clients in the $data collection
+         foreach($results['data'] as $client){
+             
+             // remove the first property (id)
+             unset($client->id);
+ 
+             // add data as array (original $client is a stdClass object)
+             $data[] = (array)$client;
+         }
+ 
+         // store the data into the XSLX file
+         $filename = 'output_' . time() . '.xlsx';
+         $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+         $spreadsheet->removeSheetByIndex(0);
+         $worksheet = new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet($spreadsheet, 'dados');
+         $spreadsheet->addSheet($worksheet);
+         $worksheet->fromArray($data);
+ 
+         $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+         header('Content-Disposition: attachment; filename="'. urlencode($filename).'"');
+         $writer->save('php://output');
+ 
+         // logger
+         logger(get_active_user_name() . " - fez download da lista de clientes para o ficheiro: " . $filename . " | total: " . count($data) - 1 . " registos.");
+     }
+
 
 }
