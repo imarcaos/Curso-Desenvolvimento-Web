@@ -535,6 +535,6 @@ Legendas:
    - A480 - BNG - Preparação da View para upload de ficheiro
    - A481 - BNG - Validações e Upload de ficheiro
    - A482 - BNG - Upload e Validação do cabeçalho dos ficheiros
-   
+   - A483 - BNG - Adicionar clientes a base de dados a partir do upload
    
    
