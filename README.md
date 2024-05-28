@@ -539,5 +539,7 @@ Legendas:
    - A484 - BNG - Construção de Report e Registo nos logs.
    - A485 - BNG - Correção de Bug no xlsx exportação de dados dos clientes.
    - A486 - BNG - Alteração da password de utilizador
+   - A487 - BNG - Início do desenvolvimento da área de administrador
+   
    
    
