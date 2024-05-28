@@ -538,5 +538,6 @@ Legendas:
    - A483 - BNG - Adicionar clientes a base de dados a partir do upload
    - A484 - BNG - Construção de Report e Registo nos logs.
    - A485 - BNG - Correção de Bug no xlsx exportação de dados dos clientes.
+   - A486 - BNG - Alteração da password de utilizador
    
    
