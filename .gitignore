@@ -348,3 +348,37 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+##### Composer
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+composer.lock
+
+##### PHP CodeSniffer
+# gitignore for the PHP Codesniffer framework
+# website: https://github.com/squizlabs/PHP_CodeSniffer
+#
+# Recommended template: PHP.gitignore
+
+/wpcs/*
+
+##### SASS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
