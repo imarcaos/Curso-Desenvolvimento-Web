@@ -542,6 +542,10 @@ Legendas:
    - A487 - BNG - Início do desenvolvimento da área de administrador
    - A488 - BNG - Apresentação da tabela de todos os clientes registados
    - A489 - BNG - Exportação dos dados dos Clientes para XLSX
+   - A490 - Apresentação de gráficos com ChartJS
+      - Listas de sites gratuítos que fornecem diversos tipos de chart's : s13_a490-ex062 > index_3.php
+   - 
+   
    
    
    
