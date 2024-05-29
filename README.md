@@ -543,8 +543,8 @@ Legendas:
    - A488 - BNG - Apresentação da tabela de todos os clientes registados
    - A489 - BNG - Exportação dos dados dos Clientes para XLSX
    - A490 - Apresentação de gráficos com ChartJS
-      - Listas de sites gratuítos que fornecem diversos tipos de chart's : s13_a490-ex062 > index_3.php
-   - 
+      - Listas de sites gratuítos que fornecem diversos tipos de chart's(gráficos) : s13_a490-ex062 > index_3.php
+   - A491 - BNG - Apresentação dos dados totais dos agentes em tabela.
    
    
    

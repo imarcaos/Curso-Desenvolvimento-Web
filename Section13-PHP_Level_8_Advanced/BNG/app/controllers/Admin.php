@@ -73,7 +73,7 @@ class Admin extends BaseController
         logger(get_active_user_name() . " - fez download da lista de clientes para o ficheiro: " . $filename . " | total: " . count($data) - 1 . " registos.");
     }
     
-/* 
+ 
     // =======================================================
     public function stats()
     {
@@ -111,7 +111,7 @@ class Admin extends BaseController
         $this->view('footer');
         $this->view('layouts/html_footer');
     }
-
+/*
     // =======================================================
     public function create_pdf_report()
     {
