@@ -541,6 +541,7 @@ Legendas:
    - A486 - BNG - Alteração da password de utilizador
    - A487 - BNG - Início do desenvolvimento da área de administrador
    - A488 - BNG - Apresentação da tabela de todos os clientes registados
+   - A489 - BNG - Exportação dos dados dos Clientes para XLSX
    
    
    
