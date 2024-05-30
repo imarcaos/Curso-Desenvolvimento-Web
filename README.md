@@ -548,7 +548,7 @@ Legendas:
    - A491 - BNG - Apresentação dos dados totais dos agentes em tabela.
    - A492 - BNG - Apresentação dos dados totais dos agentes em gráfico ChartJS
       - Descarregando a biblioteca ChartJS e instalando no nosso projeto: chart.min.js
-   
+   - A493 - BNG - Apresentação dos totais globais numa tabela
    
    
    
