@@ -549,6 +549,8 @@ Legendas:
    - A492 - BNG - Apresentação dos dados totais dos agentes em gráfico ChartJS
       - Descarregando a biblioteca ChartJS e instalando no nosso projeto: chart.min.js
    - A493 - BNG - Apresentação dos totais globais numa tabela
+   - A494 - Introdução ao mPDF - Pt1
+      - suprimi a pasta vendor, se for necessário instala-se o ficheiros novamente com o composer
    
    
    
