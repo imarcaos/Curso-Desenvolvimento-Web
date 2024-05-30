@@ -544,7 +544,10 @@ Legendas:
    - A489 - BNG - Exportação dos dados dos Clientes para XLSX
    - A490 - Apresentação de gráficos com ChartJS
       - Listas de sites gratuítos que fornecem diversos tipos de chart's(gráficos) : s13_a490-ex062 > index_3.php
+      - https://www.chartjs.org/
    - A491 - BNG - Apresentação dos dados totais dos agentes em tabela.
+   - A492 - BNG - Apresentação dos dados totais dos agentes em gráfico ChartJS
+      - Descarregando a biblioteca ChartJS e instalando no nosso projeto: chart.min.js
    
    
    
