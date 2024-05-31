@@ -227,7 +227,7 @@ class Admin extends BaseController
 
         $pdf->Output();
     }
-/*
+
     // =======================================================
     public function agents_management()
     {
@@ -249,7 +249,7 @@ class Admin extends BaseController
         $this->view('footer');
         $this->view('layouts/html_footer');
     }
-
+/*
     // =======================================================
     public function new_agent_frm()
     {
