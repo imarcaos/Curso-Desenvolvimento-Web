@@ -35,19 +35,44 @@ Legendas:
       - Alguns elementos: ul-ol list, p, links, image
    - A011 - O que já sabemos de HTML5?
    - A012 - Vários Elementos para Conteúdo de Texto
-    - C13 - Exercicio Pratico com Atributos de HTML5
-    - C15 - Construindo o Primeiro Website so com HTML5
-    - C16 - CSS Selector in Practice
-    - C24 - CSS Colors
-    - C25 - CSS Box Model
-    - C26 - CSS Margin and Paddings
-    - C28 - CSS Pseudo Class and Pseudo Element
-    - C29 - CSS Converting link in Button
-    - C32 - CSS Float Semantic Elements side by side
-    - C36 - Web Page - Final Module Exercise
+   - A013 - Exercício prático nos elementos HTML5
+   - A014 - Exercício prático com atributos de HTML5
+   - A015 - Melhorar a estrutura do HTML5 com elementos semânticos
+   - A016 - Construindo o Primeiro Website so com HTML5
+   - A017 - O que é CSS3?
+   - A018 - Três formas de aplicar estilos no HTML5
+   - A019 - Explorando os conceitos básicos do CSS3
+   - A020 - Os seletores de CSS3 na prática Pt1
+   - A021 - Os seletores de CSS3 na prática Pt2
+   - A022 - Introdução às declarações de CSS3
+   - A023 - Duas extensões do VSCode
+      - CSS Formatter e Live Server
+   - A024 - Definir cores no CSS3, abordagem teórica
+   - A025 - Definir cores no CSS3, abordagem prática
+   - A026 - CSS Box Model
+   - A027 - Box model nas ferramentas de programador
+   - A028 - Explorando Margins e Paddings na prática
+   - A029 - Pseudo Classes e Pseudo Elementos
+   - A030 - Transformar um link em um botão com CSS3
+   - A031 - Hierarquia de estilos e a regra !important
+   - A032 - Como adicionar um favicon a minha página
+   - A033 - Elementos semânticos lado a lado com float
+   - A034 - Introdução as unidades no CSS3
+   - A035 - As unidades no CSS3 na prática Pt1
+   - A036 - As unidades no CSS3 na prática Pt2
+   - A037 - Exercício final do módulo Pt1
+   - A038 - Exercício final do módulo Pt2
+   - A039 - Exercício final do módulo Pt3
+   - A040 - Exercício final do módulo Pt4
+   - A041 - Correção de um erro muito importante 
+   - A042 - Fim do módulo e passos seguintes
 
- - Section 03 - HTML5 Level 2 - Intermediate and Advanced Concepts HTML5 
-    - C52 - Tables - Practical exercise Colspan & Rowspan
+ - Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
+   - A043 - Introdução ao módulo
+   - A044 - Porque o nome index.html?
+   - A045 - Hiperligações - Exemplos mais comuns
+   - A046 - Hiperligações - Target, elementos aninhados e title
+   - C52 - Tables - Practical exercise Colspan & Rowspan
     - C59 - Form - first form
     - C62 - Form - input element attributes
     - C63 - Form - input types - part1
@@ -493,17 +518,17 @@ Legendas:
    - A441 - Finalização da nossa framework
    - A442 - A framework com todas as views
    - A443 - BNG - Início do desenvolvimento da aplicação
-   - C444 - Login form validation
-   - C445 - Login and database verification
-   - C446 - Validating values with filter_var
-   - C447 - Data encryption with AES_ENCRYPT and DECRYPT no SQL
-   - C448 - Encryption and password verification
-   - C449 - Presentation of login results
-   - C450 - Valid Login and last login record
-   - C451 - Navbar, Logout and Homepage after login
-   - C452 - Log records with Monolog ex.25
-   - C453 - Log records with Monolog on our app BNG
-   - C454 - Bug fix on logout and speed up the login process
+   - A444 - Validação do formulário de Login
+   - A445 - BNG - Verificação do login na Base de Dados
+   - A446 - Validação de valores com filter_var
+   - A447 - Encripitação dos dados com AES_ENCRYPT e DECRYPT no SQL
+   - A448 - Encriptação e verificação de password
+   - A449 - BNG - Apresentação de resultados de login
+   - A450 - BNG - Login válido & registo de último login
+   - A451 - BNG - Navbar, Logout e Homepage após login
+   - A452 - Registo de Logs com Monolog ex.25
+   - A453 - BNG -  Registo de Logs com Monolog
+   - A454 - BNG - Correção de bug no logout e agilizar o processo de login
    - A455 - Apresentação dos Clientes parte 1
    - A456 - Apresentação dos Clientes parte 2
    - A457 - Apresentação do Formulário para Adicionar Cliente
@@ -555,6 +580,8 @@ Legendas:
       - suprimi a pasta vendor, se for necessário instala-se o ficheiros novamente com o composer
    - A495 - Introdução ao mPDF - Pt2
       - suprimi a pasta vendor, se for necessário instala-se o ficheiros novamente com o composer
+   - A496 - BNG - Relatório estatístico em PDF com mPDF
+   - A497 - BNG - Início do desenvolvimento da gestão de agentes
    
    
    
