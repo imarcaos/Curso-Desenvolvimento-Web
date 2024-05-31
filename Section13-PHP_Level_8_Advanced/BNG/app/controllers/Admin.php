@@ -249,7 +249,7 @@ class Admin extends BaseController
         $this->view('footer');
         $this->view('layouts/html_footer');
     }
-/*
+
     // =======================================================
     public function new_agent_frm()
     {
@@ -364,7 +364,7 @@ class Admin extends BaseController
         $this->view('footer');
         $this->view('layouts/html_footer');
     }
-
+/*
     // =======================================================
     public function edit_agent($id)
     {

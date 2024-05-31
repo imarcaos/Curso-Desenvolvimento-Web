@@ -582,6 +582,7 @@ Legendas:
       - suprimi a pasta vendor, se for necessário instala-se o ficheiros novamente com o composer
    - A496 - BNG - Relatório estatístico em PDF com mPDF
    - A497 - BNG - Início do desenvolvimento da gestão de agentes
+   - A498 - BNG - Formulário para adição de novo agente
    
    
    
