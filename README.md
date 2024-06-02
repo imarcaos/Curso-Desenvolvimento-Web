@@ -583,6 +583,6 @@ Legendas:
    - A496 - BNG - Relatório estatístico em PDF com mPDF
    - A497 - BNG - Início do desenvolvimento da gestão de agentes
    - A498 - BNG - Formulário para adição de novo agente
-   
+   - A499 - BNG - Registo de novo agente na base de dados e criação do Purl
    
    
