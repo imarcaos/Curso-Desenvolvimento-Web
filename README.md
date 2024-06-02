@@ -584,5 +584,6 @@ Legendas:
    - A497 - BNG - Início do desenvolvimento da gestão de agentes
    - A498 - BNG - Formulário para adição de novo agente
    - A499 - BNG - Registo de novo agente na base de dados e criação do Purl
+   - A500 - BNG - Envio de emails com PHPMailer
    
    
