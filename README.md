@@ -585,5 +585,9 @@ Legendas:
    - A498 - BNG - Formulário para adição de novo agente
    - A499 - BNG - Registo de novo agente na base de dados e criação do Purl
    - A500 - BNG - Envio de emails com PHPMailer
+   - A501 - BNG - Adicionar o PHPMailer ao projeto e envio de email
+      - Instalar dentro da pasta do projeto "BNG":
+         - composer require phpmailer/phpmailer
+   
    
    
