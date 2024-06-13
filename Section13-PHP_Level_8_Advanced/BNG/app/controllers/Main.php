@@ -235,7 +235,7 @@ class Main extends BaseController
             return;
         }
 
-        if (strlen($new_password < 6) || strlen($new_password) > 12) {
+        if (strlen($new_password) < 6 || strlen($new_password) > 12) {
             $validation_errors[] = "A nova password deve ter entre 6 e 12 caracteres.";
             $_SESSION['validation_errors'] = $validation_errors;
             $this->change_password_frm();
@@ -343,6 +343,98 @@ class Main extends BaseController
         // display the define password view
         $this->view('layouts/html_header');
         $this->view('new_agent_define_password', $data);
+        $this->view('layouts/html_footer');
+    }
+
+    // =======================================================
+    public function define_password_submit()
+    {
+        // if there is a open session, gets out!
+        if (check_session()) {
+            $this->index();
+            return;
+        }
+
+        // check if there was a post
+        if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+            $this->index();
+            return;
+        }
+
+        // form validation - check for hidden fields
+        if (empty($_POST['purl']) || empty($_POST['id']) || strlen($_POST['purl']) != 20) {
+            $this->index();
+            return;
+        }
+
+        // get hidden fields
+        $id = aes_decrypt($_POST['id']);
+        $purl = $_POST['purl'];
+
+        // check if id is valid
+        if (!$id) {
+            $this->index();
+            return;
+        }
+
+        // form validation - check password's structure
+        if (empty($_POST['text_password'])) {
+            $_SESSION['validation_error'] = "Password é de preenchimento obrigatório.";
+            $this->define_password($purl);
+            return;
+        }
+        if (empty($_POST['text_repeat_password'])) {
+            $_SESSION['validation_error'] = "Repetir a password é de preenchimento obrigatório.";
+            $this->define_password($purl);
+            return;
+        }
+
+        // get the input values
+        $password = $_POST['text_password'];
+        $repeat_password = $_POST['text_repeat_password'];
+
+        if (strlen($password) < 6 || strlen($password) > 12) {
+            $_SESSION['validation_error'] = "A password deve ter entre 6 e 12 caracteres.";
+            $this->define_password($purl);
+            return;
+        }
+        if (strlen($repeat_password < 6 || strlen($repeat_password) > 12)) {
+            $_SESSION['validation_error'] = "A repetição da password deve ter entre 6 e 12 caracteres.";
+            $this->define_password($purl);
+            return;
+        }
+
+        // check if all password have, at least one upper, one lower and one digit
+
+        // use positive look ahead
+        if (!preg_match("/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/", $password)) {
+            $_SESSION['validation_error'] = "A password deve ter, pelo menos, uma maiúscula, uma minúscula e um dígito.";
+            $this->define_password($purl);
+            return;
+        }
+        if (!preg_match("/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/", $repeat_password)) {
+            $_SESSION['validation_error'] = "A repetição da password deve ter, pelo menos, uma maiúscula, uma minúscula e um dígito.";
+            $this->define_password($purl);
+            return;
+        }
+
+        // check if the password and repeat password are equal values
+        if ($password != $repeat_password) {
+            $_SESSION['validation_error'] = "A password e a sua repetição não são iguais.";
+            $this->define_password($purl);
+            return;
+        }
+
+        // updates the database with the agent's password
+        $model = new Agents();
+        $model->set_agent_password($id, $password);
+
+        // logger
+        logger("Foi definida com sucesso a password para o agente ID = $id (purl: $purl)");
+
+        // display the view with success page
+        $this->view('layouts/html_header');
+        $this->view('reset_password_define_password_success');
         $this->view('layouts/html_footer');
     }
 

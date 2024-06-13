@@ -589,5 +589,6 @@ Legendas:
       - Instalar dentro da pasta do projeto "BNG":
          - composer require phpmailer/phpmailer
    - A502 - BNG - Preparar a conclusão do registo do agente
+   - A503 - BNG - Conclusão do registo de agente com definição de password
    
    
