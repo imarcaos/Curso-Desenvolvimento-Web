@@ -588,6 +588,6 @@ Legendas:
    - A501 - BNG - Adicionar o PHPMailer ao projeto e envio de email
       - Instalar dentro da pasta do projeto "BNG":
          - composer require phpmailer/phpmailer
-   
+   - A502 - BNG - Preparar a conclusão do registo do agente
    
    

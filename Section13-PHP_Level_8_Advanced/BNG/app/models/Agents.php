@@ -295,4 +295,28 @@ class Agents extends BaseModel
             "WHERE id = :id"
         , $params);
     }
+
+    // =======================================================
+    public function check_new_agent_purl($purl)
+    {
+        // check if there is a new agent with this purl
+        $params = [
+            ':purl' => $purl
+        ];
+        $this->db_connect();
+        $results = $this->query(
+            "SELECT id FROM agents WHERE purl = :purl"
+        , $params);
+
+        if($results->affected_rows == 0){
+            return [
+                'status' => false
+            ];
+        } else {
+            return [
+                'status' => true,
+                'id' => $results->results[0]->id
+            ];
+        }
+    }
 }
