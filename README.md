@@ -592,5 +592,6 @@ Legendas:
    - A503 - BNG - Conclusão do registo de agente com definição de password
    - A504 - BNG - Preparação da tabela de agentes para editar e eliminar
    - A505 - BNG - Início da edição dos dados do agente
+   - A506 - BNG - Conclusão do processo de edição dos dados do agente
    
    
