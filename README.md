@@ -594,5 +594,5 @@ Legendas:
    - A505 - BNG - Início da edição dos dados do agente
    - A506 - BNG - Conclusão do processo de edição dos dados do agente
    - A507 - BNG - Ajustes de pormenor na aplicação e na framework
-   
+   - A508 - BNG - Eliminar e recuperar agentes
    

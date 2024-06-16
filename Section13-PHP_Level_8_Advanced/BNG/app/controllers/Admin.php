@@ -482,7 +482,7 @@ class Admin extends BaseController
         // go to the main admin page
         $this->agents_management();
     }
-/*
+
     // =======================================================
     public function edit_delete($id = '')
     {
@@ -606,7 +606,7 @@ class Admin extends BaseController
         // go to the main page
         $this->agents_management();
     }
-
+/*
 
     // =======================================================
     public function export_agents_XLSX()
