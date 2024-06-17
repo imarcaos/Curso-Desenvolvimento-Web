@@ -616,3 +616,4 @@ Legendas:
    - A507 - BNG - Ajustes de pormenor na aplicação e na framework
    - A508 - BNG - Eliminar e recuperar agentes
    - A509 - BNG - Exportação para XLSX dos agentes registados
+   - A510 - BNG - Início do desenvolvimento da recuperação da password
