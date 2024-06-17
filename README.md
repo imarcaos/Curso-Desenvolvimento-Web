@@ -23,6 +23,7 @@ Legendas:
    - A002 - Módulos Disponíveis Atualmente
    - A003 - Como ter Acesso aos Recursos
    - A004 - Changlog
+
 - Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
    - A005 - Introdução ao Módulo
    - A006 - Preparação do Ambiente de Estudo
@@ -68,30 +69,49 @@ Legendas:
    - A042 - Fim do módulo e passos seguintes
 
  - Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
-   - A043 - Introdução ao módulo
+   - A043 - Introdução ao módulo (Recursos)
    - A044 - Porque o nome index.html?
    - A045 - Hiperligações - Exemplos mais comuns
    - A046 - Hiperligações - Target, elementos aninhados e title
-   - C52 - Tables - Practical exercise Colspan & Rowspan
-    - C59 - Form - first form
-    - C62 - Form - input element attributes
-    - C63 - Form - input types - part1
-    - C64 - Form - input types - part2 input tips not to use
-    - C65 - Form - input types - input color with personal color
-    - C66 - Form - Label Element
-    - C67 - Form - Input Checkbox
-    - C68 - Form - Input Radio
-    - C69 - Form - Input Range
-    - C70 - Form - Input Hidden
-    - C72 - Form - Element Select
-    - C73 - Form - Textarea
-    - C74 - Form - Datalist
-    - C75 - Form - Fieldset & Legend
-    - C76 - Form - Input Reset and Button
-    - C78 - Form - Relative and Absolute Paths
+   - A047 - Hiperligações - Download, class e id
+   - A048 - Hiperligações - Navegação com bookmarks
+   - A049 - Hiperlizações - Email e chamada telefónica
+   - A050 - Tabelas - Introdução às tabelas em HTML
+   - A051 - Tabelas - Aplicar CSS às tabelas em HTML
+   - A052 - Tabelas - Caption, Colspan e Rowspan
+   - A053 - Tabelas - Exercícios práticos com colspan e rowspan
+   - A054 - Tabelas - Colgroup e col
+   - A055 - Tabelas - Dimensões e alinhamentos
+   - A056 - Dicas sobre como escrever código em HTML
+   - A057 - Comentários em HTML
+   - A058 - HTML Entities e Symbols
+   - A059 - Formulários - Introdução
+   - A060 - Formulários - O teu primeiro formulário
+   - A061 - Formulários - O que aconteceu no teu primeiro formulário
+   - A062 - Formulários - Introdução ao método get e post
+   - A063 - Formulários - Alguns atributos do elemento input
+   - A064 - Formulários - Input types - parte 1
+   - A065 - Formulários - input types - parte 2
+   - A066 - Formulários - Input color
+   - A067 - Formulários - O elemento label
+   - A068 - Formulários - Input Checkbox
+   - A069 - Formulários - Input Radio
+   - A070 - Formulários - Input Range
+   - A071 - Formulários - Input Hidden
+   - A072 - Formulários - Os problemas de segurança
+   - A073 - Formulários - Element Select
+   - A074 - Formulários - Textarea
+   - A075 - Formulários - Datalist
+   - A076 - Formulários - Fieldset & Legend
+   - A077 - Formulários - Input Reset and Button
+   - A078 - Formulários - O que ficou por falar sobre formulários de HTML
+   - A079 - É importante saber sobre paths relativas e paths absolutas
+   - A080 - Final do módulo e passo seguintes
  
  - Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
-    - C84 - Using another type of font with CSS font face ruler
+   - A081 - Introdução do Módulo (Recursos)
+   - A082 - Explorando propriedades de texto
+   - C84 - Using another type of font with CSS font face ruler
     - C85 - Internal fonts
     - C86 - External fonts
     - C88 - Horizontal alignment
@@ -595,4 +615,4 @@ Legendas:
    - A506 - BNG - Conclusão do processo de edição dos dados do agente
    - A507 - BNG - Ajustes de pormenor na aplicação e na framework
    - A508 - BNG - Eliminar e recuperar agentes
-   
+   - A509 - BNG - Exportação para XLSX dos agentes registados

@@ -606,7 +606,7 @@ class Admin extends BaseController
         // go to the main page
         $this->agents_management();
     }
-/*
+
 
     // =======================================================
     public function export_agents_XLSX()
@@ -651,5 +651,4 @@ class Admin extends BaseController
         logger(get_active_user_name() . " - fez download da lista de agentes para o ficheiro: " . $filename . " | total: " . count($data) - 1 . " registos.");
     } 
     
-*/
 }
