@@ -632,6 +632,47 @@ class Main extends BaseController
          $this->reset_define_password(aes_encrypt($id));
      }
 
+     // =======================================================
+    public function reset_define_password($id = '')
+    {
+        // if there is a open session, gets out!
+        if(check_session()){
+            $this->index();
+            return;
+        }
+
+        // check if id is valid
+        if(empty($id)){
+            $this->index();
+            return;
+        }
+
+        $id = aes_decrypt($id);
+        if(!$id){
+            $this->index();
+            return;
+        }
+
+        $data['id'] = $id;
+
+        // check for validation error
+        if(isset($_SESSION['validation_error'])){
+            $data['validation_error'] = $_SESSION['validation_error'];
+            unset($_SESSION['validation_error']);
+        }
+
+        // check for server error
+        if(isset($_SESSION['server_error'])){
+            $data['server_error'] = $_SESSION['server_error'];
+            unset($_SESSION['server_error']);
+        }
+
+        // display the form to define de new password
+        $this->view('layouts/html_header');
+        $this->view('reset_password_define_password_frm', $data);
+        $this->view('layouts/html_footer');
+    }
+
 }
 
 /*
