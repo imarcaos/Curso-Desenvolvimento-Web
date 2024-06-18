@@ -574,6 +574,64 @@ class Main extends BaseController
         $this->view('layouts/html_footer');
     }
 
+     // =======================================================
+     public function insert_code_submit($id = '')
+     {
+         // if there is a open session, gets out!
+         if(check_session()){
+             $this->index();
+             return;
+         }
+ 
+         // check if id is valid
+         if(empty($id)){
+             $this->index();
+             return;
+         }
+ 
+         $id = aes_decrypt($id);
+         if(!$id){
+             $this->index();
+             return;
+         }
+ 
+         // check if his a post
+         if($_SERVER['REQUEST_METHOD'] != 'POST'){
+             $this->index();
+             return;
+         }
+ 
+         // form validation
+         if(empty($_POST['text_code'])){
+             $_SESSION['validation_error'] = "Código é de preenchimento obrigatório.";
+             $this->insert_code(aes_encrypt($id));
+             return;
+         }
+         
+         $code = $_POST['text_code'];
+         
+         if(!preg_match("/^\d{6}$/", $code)){
+             $_SESSION['validation_error'] = "O código é constituído por 6 algarismos.";
+             $this->insert_code(aes_encrypt($id));
+             return;
+         }
+ 
+         // check if the code is the same that is stored in the database
+         $model = new Agents();
+         $results = $model->check_if_reset_code_is_correct($id, $code);
+         
+         if(!$results['status']){
+ 
+             $_SESSION['server_error'] = "Código incorreto.";
+             $this->insert_code(aes_encrypt($id));
+             return;
+ 
+         }
+ 
+         // the code is correct. Let's define the password
+         $this->reset_define_password(aes_encrypt($id));
+     }
+
 }
 
 /*
