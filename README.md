@@ -624,3 +624,7 @@ Legendas:
       - removido dependências do composer e outros ficheiro de teste
       - será necessário ao utilizar fazer um update composer.
       - Fim deste Módulo.
+
+- Section 14 - PHP 8 Criação e Execução de scripts no Terminal
+   - A515 - Introdução ao Módulo
+      - Recursos e Material de Apoio
