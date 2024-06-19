@@ -620,3 +620,7 @@ Legendas:
    - A511 - BNG - Desenvolvimento da recuperação da password
    - A512 - BNG - Conclusão do desenvolvimento da recuperação da password
    - A513 - BNG - Correção de Bugs e ajustamentos finais
+   - A514 - BNG - Limpeza do código para obtenção da framework original
+      - removido dependências do composer e outros ficheiro de teste
+      - será necessário ao utilizar fazer um update composer.
+      - Fim deste Módulo.

@@ -18,21 +18,20 @@ class Agents extends BaseModel
         $this->db_connect();
         $results = $this->query(
             "SELECT id, passwrd FROM agents " .
-                "WHERE AES_ENCRYPT(:username, '" . MYSQL_AES_KEY . "') = name " .
-                "AND deleted_at IS NULL",
-            $params
-        );
-
+            "WHERE AES_ENCRYPT(:username, '" .MYSQL_AES_KEY."') = name " . 
+            "AND deleted_at IS NULL"
+        , $params);
+        
         // if there is no user, returns false
-        if ($results->affected_rows == 0) {
+        if($results->affected_rows == 0){
             return [
                 'status' => false
             ];
         }
-
+        
         // there is a user with that name (username)
         // check if the password is correct
-        if (!password_verify($password, $results->results[0]->passwrd)) {
+        if(!password_verify($password, $results->results[0]->passwrd)){
             return [
                 'status' => false
             ];
@@ -48,7 +47,9 @@ class Agents extends BaseModel
     public function get_user_data($username)
     {
         // get all necessary user data to insert in the session
-        $params = [':username' => $username];
+        $params = [
+            ':username' => $username
+        ];
         $this->db_connect();
         $results = $this->query(
             "SELECT " .
@@ -60,29 +61,35 @@ class Agents extends BaseModel
             $params
         );
 
-        return ['status' => 'sucess', 'data' => $results->results[0]];
+        return [
+            'status' => 'success',
+            'data' => $results->results[0]
+        ];
     }
 
     // =======================================================
     public function set_user_last_login($id)
     {
         // updates the user's last login
-        $params = [':id' => $id];
+        $params = [
+            ':id' => $id
+        ];
         $this->db_connect();
         $results = $this->non_query(
-            "UPDATE agents SET " .
-                "last_login = NOW() " .
-                "WHERE id = :id",
-            $params
-        );
+            "UPDATE agents SET " . 
+            "last_login = NOW() " . 
+            "WHERE id = :id"
+        ,$params);
         return $results;
     }
 
     // =======================================================
     public function get_agent_clients($id_agent)
     {
-        // get all clients from the agent with the specified id_agent
-        $params = [':id_agent' => $id_agent];
+        // get all clientes from the agent with the specified id_agent
+        $params = [
+            ':id_agent' => $id_agent
+        ];
         $this->db_connect();
         $results = $this->query(
             "SELECT " .
@@ -118,13 +125,13 @@ class Agents extends BaseModel
 
         $this->db_connect();
         $results = $this->query(
-            "SELECT id FROM persons " .
-                "WHERE AES_ENCRYPT(:client_name, '" . MYSQL_AES_KEY . "') = name " .
-                "AND id_agent = :id_agent",
+            "SELECT id FROM persons " . 
+            "WHERE AES_ENCRYPT(:client_name, '" . MYSQL_AES_KEY . "') = name " . 
+            "AND id_agent = :id_agent",
             $params
         );
 
-        if ($results->affected_rows == 0) {
+        if($results->affected_rows == 0){
             return [
                 'status' => false
             ];
@@ -181,20 +188,19 @@ class Agents extends BaseModel
 
         $this->db_connect();
         $results = $this->query(
-            "SELECT " .
-                "id, " .
-                "AES_DECRYPT(name, '" . MYSQL_AES_KEY . "') name, " .
-                "gender, " .
-                "birthdate, " .
-                "AES_DECRYPT(email, '" . MYSQL_AES_KEY . "') email, " .
-                "AES_DECRYPT(phone, '" . MYSQL_AES_KEY . "') phone, " .
-                "interests " .
-                "FROM persons " .
-                "WHERE id = :id_client",
-            $params
-        );
+            "SELECT " . 
+            "id, " . 
+            "AES_DECRYPT(name, '" . MYSQL_AES_KEY . "') name, " . 
+            "gender, " . 
+            "birthdate, " . 
+            "AES_DECRYPT(email, '" . MYSQL_AES_KEY . "') email, " . 
+            "AES_DECRYPT(phone, '" . MYSQL_AES_KEY . "') phone, " . 
+            "interests " . 
+            "FROM persons " . 
+            "WHERE id = :id_client"
+        , $params);
 
-        if ($results->affected_rows == 0) {
+        if($results->affected_rows == 0){
             return [
                 'status' => 'error'
             ];
@@ -248,17 +254,16 @@ class Agents extends BaseModel
         ];
         $this->db_connect();
         $this->non_query(
-            "UPDATE persons SET " .
-                "name = AES_ENCRYPT(:name, '" . MYSQL_AES_KEY . "'), " .
-                "gender = :gender, " .
-                "birthdate = :birthdate, " .
-                "email = AES_ENCRYPT(:email, '" . MYSQL_AES_KEY . "'), " .
-                "phone = AES_ENCRYPT(:phone, '" . MYSQL_AES_KEY . "'), " .
-                "interests = :interests, " .
-                "updated_at = NOW() " .
-                "WHERE id = :id",
-            $params
-        );
+            "UPDATE persons SET " . 
+            "name = AES_ENCRYPT(:name, '" . MYSQL_AES_KEY . "'), " .
+            "gender = :gender, " . 
+            "birthdate = :birthdate, " . 
+            "email = AES_ENCRYPT(:email, '" . MYSQL_AES_KEY . "'), " .
+            "phone = AES_ENCRYPT(:phone, '" . MYSQL_AES_KEY . "'), " .
+            "interests = :interests, " . 
+            "updated_at = NOW() " . 
+            "WHERE id = :id"
+        , $params);
     }
 
     // =======================================================
@@ -309,12 +314,11 @@ class Agents extends BaseModel
 
         $this->db_connect();
         $this->non_query(
-            "UPDATE agents SET " .
-                "passwrd = :passwrd, " .
-                "updated_at = NOW() " .
-                "WHERE id = :id",
-            $params
-        );
+            "UPDATE agents SET " . 
+            "passwrd = :passwrd, " . 
+            "updated_at = NOW() " . 
+            "WHERE id = :id"
+        , $params);
     }
 
     // =======================================================
@@ -326,11 +330,10 @@ class Agents extends BaseModel
         ];
         $this->db_connect();
         $results = $this->query(
-            "SELECT id FROM agents WHERE purl = :purl",
-            $params
-        );
+            "SELECT id FROM agents WHERE purl = :purl"
+        , $params);
 
-        if ($results->affected_rows == 0) {
+        if($results->affected_rows == 0){
             return [
                 'status' => false
             ];
@@ -353,13 +356,12 @@ class Agents extends BaseModel
 
         $this->db_connect();
         $this->non_query(
-            "UPDATE agents SET " .
-                "passwrd = :passwrd, " .
-                "purl = NULL, " .
-                "updated_at = NOW() " .
-                "WHERE id = :id",
-            $params
-        );
+            "UPDATE agents SET " . 
+            "passwrd = :passwrd, " . 
+            "purl = NULL, " .
+            "updated_at = NOW() " . 
+            "WHERE id = :id"
+        , $params);
     }
 
     // =======================================================

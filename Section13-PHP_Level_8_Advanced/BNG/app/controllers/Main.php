@@ -8,11 +8,12 @@ use bng\System\SendEmail;
 
 class Main extends BaseController
 {
+    // =======================================================
     public function index()
     {
         // check if there is no active user in session
-        if(!check_session()){
-            $this->Login_frm();
+        if (!check_session()) {
+            $this->login_frm();
             return;
         }
 
@@ -34,10 +35,6 @@ class Main extends BaseController
         if (check_session()) {
             $this->index();
             return;
-
-            $this->view('layouts/html_header');
-            echo '<h3 class="text-white text-center">Olá Mundo!</h3>';
-            $this->view('footer');
         }
 
         // check if there are errors (after login_submit)
@@ -79,11 +76,11 @@ class Main extends BaseController
         if (empty($_POST['text_username']) || empty($_POST['text_password'])) {
             $validation_errors[] = "Username e password são obrigatórios.";
         }
-        
+
         // get form data
         $username = $_POST['text_username'];
         $password = $_POST['text_password'];
-        
+
         // check if username is valid email and between 5 and 50 chars
         if (!filter_var($username, FILTER_VALIDATE_EMAIL)) {
             $validation_errors[] = 'O username tem que ser um email válido.';
@@ -108,10 +105,10 @@ class Main extends BaseController
 
         $model = new Agents();
         $result = $model->check_login($username, $password);
-        if(!$result['status']) {
-            
+        if (!$result['status']) {
+
             // logger
-            logger("$username - Login inválido", 'error');
+            logger("$username - login inválido", 'error');
 
             // invalid login
             $_SESSION['server_error'] = 'Login inválido.';
@@ -120,11 +117,11 @@ class Main extends BaseController
         }
 
         // logger
-        logger("$username - Login com sucesso");
-        
+        logger("$username - login com sucesso");
+
         // load user information to the session
         $results = $model->get_user_data($username);
-        
+
         // add user to session
         $_SESSION['user'] = $results['data'];
 
@@ -133,14 +130,13 @@ class Main extends BaseController
 
         // go to main page
         $this->index();
-
     }
 
     // =======================================================
-    public function logout() {
-
+    public function logout()
+    {
         // disable direct access to logout
-        if(!check_session()) {
+        if (!check_session()) {
             $this->index();
             return;
         }
@@ -151,9 +147,10 @@ class Main extends BaseController
         // clear user from session
         unset($_SESSION['user']);
 
-        // go o index (login form)
+        // go to index (login form)
         $this->index();
     }
+
 
     // =======================================================
     // profile change password
@@ -236,7 +233,7 @@ class Main extends BaseController
             return;
         }
 
-        if (strlen($new_password) < 6 || strlen($new_password) > 12) {
+        if (strlen($new_password < 6) || strlen($new_password) > 12) {
             $validation_errors[] = "A nova password deve ter entre 6 e 12 caracteres.";
             $_SESSION['validation_errors'] = $validation_errors;
             $this->change_password_frm();
@@ -439,36 +436,36 @@ class Main extends BaseController
         $this->view('layouts/html_footer');
     }
 
-     // =======================================================
-     public function reset_password()
-     {
-         // if there is a open session, gets out!
-         if (check_session()) {
-             $this->index();
-             return;
-         }
- 
-         $data = [];
- 
-         // check validation errors
-         if (isset($_SESSION['validation_error'])) {
-             $data['validation_error'] = $_SESSION['validation_error'];
-             unset($_SESSION['validation_error']);
-         }
- 
-         // check server error
-         if (isset($_SESSION['server_error'])) {
-             $data['server_error'] = $_SESSION['server_error'];
-             unset($_SESSION['server_error']);
-         }
- 
-         // display the view with success page
-         $this->view('layouts/html_header');
-         $this->view('reset_password_frm', $data);
-         $this->view('layouts/html_footer');
-     }
+    // =======================================================
+    public function reset_password()
+    {
+        // if there is a open session, gets out!
+        if (check_session()) {
+            $this->index();
+            return;
+        }
 
-     // =======================================================
+        $data = [];
+
+        // check validation errors
+        if (isset($_SESSION['validation_error'])) {
+            $data['validation_error'] = $_SESSION['validation_error'];
+            unset($_SESSION['validation_error']);
+        }
+
+        // check server error
+        if (isset($_SESSION['server_error'])) {
+            $data['server_error'] = $_SESSION['server_error'];
+            unset($_SESSION['server_error']);
+        }
+
+        // display the view with success page
+        $this->view('layouts/html_header');
+        $this->view('reset_password_frm', $data);
+        $this->view('layouts/html_footer');
+    }
+
+    // =======================================================
     public function reset_password_submit()
     {
         // if there is a open session, gets out!
@@ -574,65 +571,65 @@ class Main extends BaseController
         $this->view('layouts/html_footer');
     }
 
-     // =======================================================
-     public function insert_code_submit($id = '')
-     {
-         // if there is a open session, gets out!
-         if(check_session()){
-             $this->index();
-             return;
-         }
- 
-         // check if id is valid
-         if(empty($id)){
-             $this->index();
-             return;
-         }
- 
-         $id = aes_decrypt($id);
-         if(!$id){
-             $this->index();
-             return;
-         }
- 
-         // check if his a post
-         if($_SERVER['REQUEST_METHOD'] != 'POST'){
-             $this->index();
-             return;
-         }
- 
-         // form validation
-         if(empty($_POST['text_code'])){
-             $_SESSION['validation_error'] = "Código é de preenchimento obrigatório.";
-             $this->insert_code(aes_encrypt($id));
-             return;
-         }
-         
-         $code = $_POST['text_code'];
-         
-         if(!preg_match("/^\d{6}$/", $code)){
-             $_SESSION['validation_error'] = "O código é constituído por 6 algarismos.";
-             $this->insert_code(aes_encrypt($id));
-             return;
-         }
- 
-         // check if the code is the same that is stored in the database
-         $model = new Agents();
-         $results = $model->check_if_reset_code_is_correct($id, $code);
-         
-         if(!$results['status']){
- 
-             $_SESSION['server_error'] = "Código incorreto.";
-             $this->insert_code(aes_encrypt($id));
-             return;
- 
-         }
- 
-         // the code is correct. Let's define the password
-         $this->reset_define_password(aes_encrypt($id));
-     }
+    // =======================================================
+    public function insert_code_submit($id = '')
+    {
+        // if there is a open session, gets out!
+        if(check_session()){
+            $this->index();
+            return;
+        }
 
-     // =======================================================
+        // check if id is valid
+        if(empty($id)){
+            $this->index();
+            return;
+        }
+
+        $id = aes_decrypt($id);
+        if(!$id){
+            $this->index();
+            return;
+        }
+
+        // check if his a post
+        if($_SERVER['REQUEST_METHOD'] != 'POST'){
+            $this->index();
+            return;
+        }
+
+        // form validation
+        if(empty($_POST['text_code'])){
+            $_SESSION['validation_error'] = "Código é de preenchimento obrigatório.";
+            $this->insert_code(aes_encrypt($id));
+            return;
+        }
+        
+        $code = $_POST['text_code'];
+        
+        if(!preg_match("/^\d{6}$/", $code)){
+            $_SESSION['validation_error'] = "O código é constituído por 6 algarismos.";
+            $this->insert_code(aes_encrypt($id));
+            return;
+        }
+
+        // check if the code is the same that is stored in the database
+        $model = new Agents();
+        $results = $model->check_if_reset_code_is_correct($id, $code);
+        
+        if(!$results['status']){
+
+            $_SESSION['server_error'] = "Código incorreto.";
+            $this->insert_code(aes_encrypt($id));
+            return;
+
+        }
+
+        // the code is correct. Let's define the password
+        $this->reset_define_password(aes_encrypt($id));
+    }
+
+    // =======================================================
     public function reset_define_password($id = '')
     {
         // if there is a open session, gets out!
@@ -673,9 +670,97 @@ class Main extends BaseController
         $this->view('layouts/html_footer');
     }
 
+    // =======================================================
+    public function reset_define_password_submit($id = '')
+    {
+        // if there is a open session, gets out!
+        if(check_session()){
+            $this->index();
+            return;
+        }
+
+        // check if id is valid
+        if(empty($id)){
+            $this->index();
+            return;
+        }
+
+        $id = aes_decrypt($id);
+        if(!$id){
+            $this->index();
+            return;
+        }
+
+        // check if there was a post
+        if($_SERVER['REQUEST_METHOD'] != 'POST'){
+            $this->index();
+            return;
+        }
+
+        // form validation
+        if(empty($_POST['text_new_password'])){
+            $_SESSION['validation_error'] = "Nova password é de preenchimento obrigatório.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+        if(empty($_POST['text_repeat_new_password'])){
+            $_SESSION['validation_error'] = "A repetição da nova password é de preenchimento obrigatório.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+
+        // get the input values
+        $new_password = $_POST['text_new_password'];
+        $repeat_new_password = $_POST['text_repeat_new_password'];
+        
+        // check if all passwords have more than 6 and less than 12 characters
+        if(strlen($new_password) < 6 || strlen($new_password) > 12){
+            $_SESSION['validation_error'] = "A nova password deve ter entre 6 e 12 caracteres.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+        if(strlen($repeat_new_password) < 6 || strlen($repeat_new_password) > 12){
+            $_SESSION['validation_error'] = "A repeição da nova password deve ter entre 6 e 12 caracteres.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+
+        // check if all password have, at least one upper, one lower and one digit
+        
+        // use positive look ahead
+        if(!preg_match("/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/", $new_password)){
+            $_SESSION['validation_error'] = "A nova password deve ter, pelo menos, uma maiúscula, uma minúscula e um dígito.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+        if(!preg_match("/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/", $repeat_new_password)){
+            $_SESSION['validation_error'] = "A repetição da nova password deve ter, pelo menos, uma maiúscula, uma minúscula e um dígito.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+        
+        // check if both passwords are equal
+        if($new_password != $repeat_new_password){
+            $_SESSION['validation_error'] = "As nova password e a sua repetição devem ser iguais.";
+            $this->reset_define_password(aes_encrypt($id));
+            return;
+        }
+
+        // updates the agent's password in the database
+        $model = new Agents();
+        $model->change_agent_password($id, $new_password);
+
+        // logger
+        logger("Foi alterada com sucesso a password do user ID: $id após pedido de reset da password.");
+
+        // display success page
+        $this->view('layouts/html_header');
+        $this->view('profile_change_password_success');
+        $this->view('layouts/html_footer');
+    }
 }
 
-/*
+/* 
 admin@bng.com - Aa123456
 agente1@bng.com - Aa123456
 agente2@bng.com - Aa123456

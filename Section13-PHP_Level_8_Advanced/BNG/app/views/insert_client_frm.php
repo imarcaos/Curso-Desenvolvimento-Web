@@ -10,7 +10,7 @@
 
                         <hr>
 
-                        <form action="?ct=agent&mt=new_client_submit" method="post" novalidate>
+                        <form action="?ct=agent&mt=new_client_submit" method="post" >
 
                             <div class="mb-3">
                                 <label for="text_name" class="form-label">Nome</label>
@@ -50,7 +50,7 @@
                                 <label for="text_interests" class="form-label">Interesses<span class="ms-4"><small>(Palavras separadas por virgulas)</small></span></label>
                                 <input type="text" class="form-control" name="text_interests" id="text_interests">
                             </div>
-                            
+
                             <div class="mb-3 text-center">
                                 <a href="?ct=agent&mt=my_clients" class="btn btn-secondary"><i class="fa-solid fa-xmark me-2"></i>Cancelar</a>
                                 <button type="submit" class="btn btn-secondary"><i class="fa-regular fa-floppy-disk me-2"></i>Guardar</button>
@@ -82,5 +82,7 @@
 </div>
 
 <script>
-    flatpickr("#text_birthdate", {dateFormat: "d-m-Y"})
+    flatpickr("#text_birthdate", {
+        dateFormat: "d-m-Y"
+    })
 </script>

@@ -12,7 +12,7 @@
 
                         <form action="?ct=agent&mt=edit_client_submit" method="post">
 
-                        <input type="hidden" name="id_client" value="<?= aes_encrypt($client->id) ?>">
+                            <input type="hidden" name="id_client" value="<?= aes_encrypt($client->id) ?>">
 
                             <div class="mb-3">
                                 <label for="text_name" class="form-label">Nome</label>
@@ -23,11 +23,11 @@
                                 <div class="col-md-6 col-sm-12">
                                     <div>Sexo</div>
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="radio_gender" id="radio_m" value="m" <?= $client->gender == 'm' ? 'checked' : '' ?>>
+                                        <input class="form-check-input" type="radio" name="radio_gender" id="radio_m" value="m" <?= $client->gender == 'm' ? 'checked' : '' ?>>
                                         <label class="form-check-label" for="radio_m">Masculino</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="radio_gender" id="radio_f" value="f" <?= $client->gender == 'f' ? 'checked' : '' ?>>
+                                        <input class="form-check-input" type="radio" name="radio_gender" id="radio_f" value="f" <?= $client->gender == 'f' ? 'checked' : '' ?>>
                                         <label class="form-check-label" for="radio_f">Feminino</label>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@
                                 <label for="text_interests" class="form-label">Interesses<span class="ms-4"><small>(Palavras separadas por virgulas)</small></span></label>
                                 <input type="text" class="form-control" name="text_interests" id="text_interests" value="<?= $client->interests ?>">
                             </div>
-                            
+
                             <div class="mb-3 text-center">
                                 <a href="?ct=agent&mt=my_clients" class="btn btn-secondary"><i class="fa-solid fa-xmark me-2"></i>Cancelar</a>
                                 <button type="submit" class="btn btn-secondary"><i class="fa-regular fa-floppy-disk me-2"></i>Atualizar</button>
