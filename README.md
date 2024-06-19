@@ -619,3 +619,4 @@ Legendas:
    - A510 - BNG - Início do desenvolvimento da recuperação da password
    - A511 - BNG - Desenvolvimento da recuperação da password
    - A512 - BNG - Conclusão do desenvolvimento da recuperação da password
+   - A513 - BNG - Correção de Bugs e ajustamentos finais

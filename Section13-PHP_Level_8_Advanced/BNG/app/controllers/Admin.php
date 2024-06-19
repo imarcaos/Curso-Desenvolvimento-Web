@@ -72,8 +72,7 @@ class Admin extends BaseController
         // logger
         logger(get_active_user_name() . " - fez download da lista de clientes para o ficheiro: " . $filename . " | total: " . count($data) - 1 . " registos.");
     }
-    
- 
+
     // =======================================================
     public function stats()
     {
@@ -649,6 +648,5 @@ class Admin extends BaseController
 
         // logger
         logger(get_active_user_name() . " - fez download da lista de agentes para o ficheiro: " . $filename . " | total: " . count($data) - 1 . " registos.");
-    } 
-    
+    }
 }
