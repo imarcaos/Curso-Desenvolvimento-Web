@@ -628,3 +628,6 @@ Legendas:
 - Section 14 - PHP 8 Criação e Execução de scripts no Terminal
    - A515 - Introdução ao Módulo
       - Recursos e Material de Apoio
+   - A516 - PHP CLI e como executar um Script no terminal
+      - verificar se temos o PHP instalado: php -v
+      - mais comandos no ficheiro _notas.md da aula de hoje 
