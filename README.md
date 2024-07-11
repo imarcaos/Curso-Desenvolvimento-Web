@@ -631,3 +631,7 @@ Legendas:
    - A516 - PHP CLI e como executar um Script no terminal
       - verificar se temos o PHP instalado: php -v
       - mais comandos no ficheiro _notas.md da aula de hoje 
+   - A517 - Mais detalhes sobre PHP CLI & Scripts no Terminal
+   - A518 - Passar Parâmetros para o Script
+   - A519 - Criar um Batch file para executar Script de PHP
+   - A520 - Script de PHP Executável Dentro do Servidor Linux
