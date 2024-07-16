@@ -636,3 +636,4 @@ Legendas:
    - A519 - Criar um Batch file para executar Script de PHP
    - A520 - Script de PHP Executável Dentro do Servidor Linux
    - A521 - Validação de Argumentos
+   - A522 - Exercício de Manipulação de File System
