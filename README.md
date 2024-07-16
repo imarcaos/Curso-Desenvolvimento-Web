@@ -637,3 +637,10 @@ Legendas:
    - A520 - Script de PHP Executável Dentro do Servidor Linux
    - A521 - Validação de Argumentos
    - A522 - Exercício de Manipulação de File System
+   - A523 - REcebendo Informação via Stantand Input
+   - A524 - Exercício com Registo de Logs
+   - A525 - Exercício com Base de Dados
+   - A526 - Considerações Finais
+
+- Section 15 - REST APIs com PHP e MySQL
+   - 
