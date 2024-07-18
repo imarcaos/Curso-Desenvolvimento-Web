@@ -645,3 +645,4 @@ Legendas:
 - Section 15 - REST APIs com PHP e MySQL
    - A527 - Introdução ao Módulo
    - A528 - O Formato Json & Função json_encode
+   - A529 - A função json_decode
