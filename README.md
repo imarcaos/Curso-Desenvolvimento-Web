@@ -646,3 +646,4 @@ Legendas:
    - A527 - Introdução ao Módulo
    - A528 - O Formato Json & Função json_encode
    - A529 - A função json_decode
+   - A530 - Vamos Criar uma API bem simples
