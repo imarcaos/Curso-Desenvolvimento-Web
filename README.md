@@ -151,11 +151,16 @@ Legendas:
    - A119 - CSS Grid Exercício 1
    - A120 - CSS Grid Exercício 2
    - A121 - CSS Grid Exercício 3
-   - C124 - Media Queries - Mobile First
-   - C126 - Media Queries - Breakingpoints
-   - C127 - Media Queries - Hidden items
-   - C128 - Media Queries - Orientation
-   - C129 - Media Queries - Print
+   - A122 - Media Queries Sintaxe Base
+   - A123 - Media Queries Introdução
+   - A124 - Media Queries Mobile First
+   - A125 - Media Queries Screen Breaking Points
+   - A126 - Media Queries Exemplos com os Breakpoints
+   - A127 - Media Queries Outro Exemplo
+   - A128 - Media Queries Orientation
+   - A129 - Media Queries Print
+   - A130 - Media Queries Exemplo Final
+   - A131 - CSS o que ficou por dizer
 
 
  - Section 05 - JavaScript for DOM Level 1
@@ -648,4 +653,8 @@ Legendas:
    - A529 - A função json_decode
    - A530 - Vamos Criar uma API bem simples
    - A531 - API Request com GET & com POST
+   - A532 - HTTP Request Methods
+   - A533 - Request com o Método GET
+   - A534 - Request com o Método POST
+   - A535 - Request com o Método PUT
    
