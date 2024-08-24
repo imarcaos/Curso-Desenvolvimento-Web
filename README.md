@@ -658,4 +658,6 @@ Legendas:
    - A534 - Request com o Método POST
    - A535 - Request com o Método PUT
    - A536 - Request com o Método DELETE
+   - A537 - Autenticação com HTTP Basic Auth
+   
    
