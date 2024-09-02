@@ -659,5 +659,6 @@ Legendas:
    - A535 - Request com o Método PUT
    - A536 - Request com o Método DELETE
    - A537 - Autenticação com HTTP Basic Auth
+   - A538 - Autenticação com API Key
    
    
