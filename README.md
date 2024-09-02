@@ -660,5 +660,6 @@ Legendas:
    - A536 - Request com o Método DELETE
    - A537 - Autenticação com HTTP Basic Auth
    - A538 - Autenticação com API Key
+   - A539 - Autenticação com JWT (Json Web Token)
    
    
