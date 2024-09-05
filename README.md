@@ -667,5 +667,6 @@ Legendas:
    - A543 - Utilização do Postman para testar APIs
    - A544 - Thunder Client - Alternativa ao Postman em Plugin do VSCode
    - A545 - Estrutura Base da API
+   - A546 - Desenvolvimento da Iniciação da API
    
    
