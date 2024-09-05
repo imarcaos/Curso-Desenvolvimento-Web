@@ -662,5 +662,10 @@ Legendas:
    - A538 - Autenticação com API Key
    - A539 - Autenticação com JWT (Json Web Token)
    - A540 - Conclusão sobre Autenticação em APIs REST
+   - A541 - Preparação da Base de Dados da API
+   - A542 - Instalação do Postman
+   - A543 - Utilização do Postman para testar APIs
+   - A544 - Thunder Client - Alternativa ao Postman em Plugin do VSCode
+   - A545 - Estrutura Base da API
    
    
