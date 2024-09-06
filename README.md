@@ -668,5 +668,6 @@ Legendas:
    - A544 - Thunder Client - Alternativa ao Postman em Plugin do VSCode
    - A545 - Estrutura Base da API
    - A546 - Desenvolvimento da Iniciação da API
+   - A547 - Primeiro Endpoint GET com Dados & Melhoramentos no Sistema
    
    
