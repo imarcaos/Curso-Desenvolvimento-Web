@@ -669,5 +669,7 @@ Legendas:
    - A545 - Estrutura Base da API
    - A546 - Desenvolvimento da Iniciação da API
    - A547 - Primeiro Endpoint GET com Dados & Melhoramentos no Sistema
+   - A548 - O valor Integration Key
+   
    
    

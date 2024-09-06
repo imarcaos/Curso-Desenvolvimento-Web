@@ -9,7 +9,7 @@ function check_request_method($request_method, $expected_request_method)
         $res->response();
     }
 }
-/* 
+
 function check_integration_key_get()
 {
     if(isset($_GET['integration_key'])){
@@ -17,7 +17,7 @@ function check_integration_key_get()
         $res->set_integration_key($_GET['integration_key']);
     }
 }
-
+/* 
 function check_integration_key_json($data)
 {
     if(key_exists('integration_key', $data)){
