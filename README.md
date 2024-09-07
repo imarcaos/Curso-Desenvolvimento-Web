@@ -674,6 +674,8 @@ Legendas:
    - A550 - Mais alguns Endpoints com o Método GET
    - A551 - Adicionar um Cliente com o método POST
    - A552 - Atualizar os dados de Cliente como o método PUT
+   - A553 - Eliminar um Cliente com o método DELETE
+   
 
    
    
