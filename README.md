@@ -670,6 +670,7 @@ Legendas:
    - A546 - Desenvolvimento da Iniciação da API
    - A547 - Primeiro Endpoint GET com Dados & Melhoramentos no Sistema
    - A548 - O valor Integration Key
+   - A549 - Vamos buscar um cliente pelo seu Id
    
    
    

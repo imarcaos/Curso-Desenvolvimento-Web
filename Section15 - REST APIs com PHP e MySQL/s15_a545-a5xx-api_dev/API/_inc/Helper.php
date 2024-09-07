@@ -36,7 +36,7 @@ function check_required_fields_in_json($data, $fields)
 
     return true;
 }
-
+*/
 function missing_request_parameter($parameter)
 { 
     global $res;
@@ -44,4 +44,3 @@ function missing_request_parameter($parameter)
     $res->set_error_message('Missing parameter: ' . $parameter);
     $res->response();
 }
-*/
