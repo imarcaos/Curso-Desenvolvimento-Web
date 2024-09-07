@@ -18,13 +18,13 @@ Legendas:
    . Seção-S
    . Aula-A
 
-- Seção 01 - Bem Vindo ao Desenvolvimento WEB
+## Seção 01 - Bem Vindo ao Desenvolvimento WEB
    - A001 - Bem Vindo ao Curso
    - A002 - Módulos Disponíveis Atualmente
    - A003 - Como ter Acesso aos Recursos
    - A004 - Changlog
 
-- Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
+## Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
    - A005 - Introdução ao Módulo
    - A006 - Preparação do Ambiente de Estudo
       - Navegador(Browse), Editor de Códigos (Visual Studio Code).
