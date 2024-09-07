@@ -17,7 +17,7 @@ function check_integration_key_get()
         $res->set_integration_key($_GET['integration_key']);
     }
 }
-/* 
+ 
 function check_integration_key_json($data)
 {
     if(key_exists('integration_key', $data)){
@@ -36,7 +36,7 @@ function check_required_fields_in_json($data, $fields)
 
     return true;
 }
-*/
+
 function missing_request_parameter($parameter)
 { 
     global $res;

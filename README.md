@@ -672,7 +672,8 @@ Legendas:
    - A548 - O valor Integration Key
    - A549 - Vamos buscar um cliente pelo seu Id
    - A550 - Mais alguns Endpoints com o Método GET
-   
+   - A551 - Adicionar um Cliente com o método POST
+
    
    
    
