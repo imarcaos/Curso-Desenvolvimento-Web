@@ -675,7 +675,13 @@ Legendas:
    - A551 - Adicionar um Cliente com o método POST
    - A552 - Atualizar os dados de Cliente como o método PUT
    - A553 - Eliminar um Cliente com o método DELETE
-   
+   - A554 - Testando alguns Endpoints com o Thunder Client
+   - A555 - Usar o Postman para Gerar o Código do Request
+   - A556 - O Básico sobre geração de documentação com o Postman
+   - A557 - Proposta sobre documentação de uma API
+
+- Section 16 - Exercícios de PHP
+
 
    
    
