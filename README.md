@@ -683,6 +683,8 @@ Legendas:
 
 - Section 16 - Exercícios de PHP
    - 001 - Olá Mundo
+   - 002 - Interpolação de Strings
+   - 003 - Interpolação de Strings 2
 
 
    
