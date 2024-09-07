@@ -673,6 +673,7 @@ Legendas:
    - A549 - Vamos buscar um cliente pelo seu Id
    - A550 - Mais alguns Endpoints com o Método GET
    - A551 - Adicionar um Cliente com o método POST
+   - A552 - Atualizar os dados de Cliente como o método PUT
 
    
    
