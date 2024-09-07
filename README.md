@@ -68,7 +68,7 @@ Legendas:
    - A041 - Correção de um erro muito importante 
    - A042 - Fim do módulo e passos seguintes
 
- - Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
+- Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
    - A043 - Introdução ao módulo (Recursos)
    - A044 - Porque o nome index.html?
    - A045 - Hiperligações - Exemplos mais comuns
@@ -108,7 +108,7 @@ Legendas:
    - A079 - É importante saber sobre paths relativas e paths absolutas
    - A080 - Final do módulo e passo seguintes
  
- - Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
+- Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
    - A081 - Introdução do Módulo (Recursos)
    - A082 - Explorando propriedades de texto
    - C84 - Using another type of font with CSS font face ruler
@@ -655,6 +655,7 @@ Legendas:
    - A531 - API Request com GET & com POST
    - A532 - HTTP Request Methods
    - A533 - Request com o Método GET
+      - Curl (Client URL)  
    - A534 - Request com o Método POST
    - A535 - Request com o Método PUT
    - A536 - Request com o Método DELETE
@@ -681,6 +682,7 @@ Legendas:
    - A557 - Proposta sobre documentação de uma API
 
 - Section 16 - Exercícios de PHP
+   - 001 - Olá Mundo
 
 
    
