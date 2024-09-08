@@ -8,8 +8,6 @@ Conteúdo do curso: HTML5, CSS3, JS, Bootstrap5, PHP8, POO, MVC, MySQL, SQL, RES
 
 Gosto de subir meus códigos para o Git de forma a poder fazer uma eventual consulta ou que possa ser útil a outro estudante/desenvolvedor, os códigos podem estar comentados com algumas explicações se necessário. 
 
-Se eu achar necessário irei detalhar alguns exercícios através de comentários dentro do próprio código.
-
 A lista abaixo estará dividida em seções e eventualmente os exercícios que estas venham a possuir.
 
 <a href="https://www.youtube.com/@JLDRPT">Canal Youtube do Professor João Ribeiro </a>
@@ -23,6 +21,7 @@ Legendas:
    - A002 - Módulos Disponíveis Atualmente
    - A003 - Como ter Acesso aos Recursos
    - A004 - Changlog
+
 
 ## Seção 02 - HTML5 e CSS3 - Nível 1 - Introdução ao HTML5 e CSS 3
    - A005 - Introdução ao Módulo
@@ -68,7 +67,8 @@ Legendas:
    - A041 - Correção de um erro muito importante 
    - A042 - Fim do módulo e passos seguintes
 
-- Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
+
+## Seção 03 - HTML5 Nível 2 - Conceitos intermediários e avançados 
    - A043 - Introdução ao módulo (Recursos)
    - A044 - Porque o nome index.html?
    - A045 - Hiperligações - Exemplos mais comuns
@@ -108,31 +108,35 @@ Legendas:
    - A079 - É importante saber sobre paths relativas e paths absolutas
    - A080 - Final do módulo e passo seguintes
  
-- Section 04 - CSS3 Level 2 - Intermediate and Advanced Concepts
+
+## Seção 04 - CSS3 Nível 2 - Conceitos Intermédios e Avançados
    - A081 - Introdução do Módulo (Recursos)
    - A082 - Explorando propriedades de texto
-   - C84 - Using another type of font with CSS font face ruler
-    - C85 - Internal fonts
-    - C86 - External fonts
-    - C88 - Horizontal alignment
-    - C89 - Height line and space between letters and words
-    - C90 - Text Transform
-    - C91 - Font Variant
-    - C92 - List Style
-    - C93 - Backgrounds in HTML elements
-    - C94 - Color Gradients
-    - C95 - CSS Layouts
-    - C96 - Display property
-    - C97 - Float
-    - C98 - Positioning
-    - C99 - Z-Index, Fixed and Sticky
-    - C101 - Flexbox - flex container part1
+   - A083 - Web Safe Fonts & Default Fonts
+   - A084 - Aplicar sombras nas letras
+   - A085 - Usando outro tipo de letras com a regra Font Face
+   - A086 - Utilização de Google Fonts
+   - A087 - Duas letras distintas com Google Fonts
+   - A088 - Alinhamento Horizontal
+   - A089 - Altura de Linha e espaçamento entre letras e palavras
+   - A090 - Usando o Text-Transform para Capitalização do Texto
+   - A091 - Font-Variant para capitalizar letras
+   - A092 - Aplicar estilos a listas
+   - A093 - Usando backgrounds nos elementos HTML
+   - A094 - Criando gradações de cores
+   - A095 - Introdução aos layouts de CSS
+   - A096 - A propriedade Display
+   - A097 - Floats
+   - A098 - Posicionamento
+   - A099 - Z-Index, Fixed e Sticky
+   - A100 - Flexbox introdução
+   - A101 - Flexbox Flex Container parte 1 de 3
       - flex-direction, flex-wrap and flex-flow
-    - C102 - Flexbox - flex container part2
+   - A102 - Flexbox Flex Container parte 2 de 3
       - justify-content: flex-start, flex-end, space-around, space-between and space-evenly
-   - C103 - Flexbox - flex container part3
+   - A103 - Flexbox Flex Container parte 3 de 3
       - gap, row-gap and column-gap
-   - C104 - Flexbox - flex items properties
+   - A104 - Flexbox propriedades dos Flex items
       - order, flex-grow, flex-shrink
    - A105 - Exercício 1 Flexbox - Menu, Content. 
    - A106 - Exercício 2 Flexbox - Header, Sidebar's, Content, Footer
@@ -163,103 +167,123 @@ Legendas:
    - A131 - CSS o que ficou por dizer
 
 
- - Section 05 - JavaScript for DOM Level 1
-    - C132 - Intro about Section
-    - C141 - Javascript Operators
-    - C143 - Javascript if, else-if, else
-    - C145 - Ternary Operator
-    - C146 - Switch Case
-    - C147 - Arrays - Introduction
-    - C148 - Arrays - Length, push, unshift, shift, pop and splice
-    - C149 - Arrays - Slice, concat, includes, indexof and join
-    - C150 - Arrays -Sort
-    - C151 - Cycles,loops and interactions (while and for)
-    - C152 - Functions
-    - C153 - Functions expressions and arrow functions
-    - C154 - Variables Scope - local and global
-    - C155 - Objects
-    - C156 - DOM - Document Object Model Intro
-    - C157 - DOM navigation intro
-    - C158 - DOM getElementById
-    - C159 - DOM get elements methods
-    - C160 - DOM querySelector() and querySelectorAll()
-    - C161 - DOM Query Selectors examples
-    - C162 - DOM Inline Style
-    - C163 - DOM className and classList
-    - C164 - DOM Attribute
-    - C165 - DOM Add and Remove Elements
-    - C166 - DOM Event Handlers
-    - C167 - DOM Event Listeners
-    - C168 - DOM Event Listeners Remove - exercise
-    - C169 - DOM Event Listener-event propagation - exercise
-    - C170 - DOM Event Listener-same event listener for 3 elements same ex.169- exercise
-    - C171 - DOM Event Listener-graduation color - exercise
-    - C172 - DOM Event Listener-graduation color - exercise less code
-    - C173 - DOM Prevent Default
-    - C174 - DOM Intro to Form Validation
-    - C175 - DOM Form Validation -code improve
-    - C176 - DOM Loaded JS - readystatechange and DOMContentLoaded
-    - C177 - A little about JQuery
+## Seção 05 - JavaScript para DOM Nível 1 - Básico do JavaScript
+   - A132 - Introdução ao Módulo
+   - A133 - Requisitos Necessários
+   - A134 - Como adicionar JavaScript ao HTML
+   - A135 - A sintaxe do JavaScript
+   - A136 - Comentários em JavaScript
+   - A137 - Variáveis em JavaScript
+   - A138 - Apresentando resultados no Browser 
+   - A139 - Tipos de Dados
+   - A140 - O problema das variáveis no JavaScript
+   - A141 - Operadores em JavaScript
+   - A142 - Strings
+   - A143 - Instrução condicional if, else if, else
+   - A144 - Opereradores de comparação e operadores lógicos
+   - A145 - Operadore ternário
+   - A146 - Estrutura switch-case
+   - A147 -  Arrays
+   - A148 - Métodos para operar com arrays - parte 1
+   - A149 - Métodos para operar com arrays - parte 2
+   - A150 - Como ordenar arrays
+   - A151 - Ciclos, loops e iterações
+   - A152 - Funções
+   - A153 - Function Expressions e Arrow Functions
+   - A154 - Escopo de variáveis
+   - A155 - Objetos
+   - A156 - O Documento Object Model (DOM)
+   - A157 - Introdução à navegação no DOM
+   - A158 - Método getElementById
+   - A159 - Outros métodos Get Elements
+   - A160 - Introdução ao querySelector e querySelectorAll
+   - A161 - Exemplos com query Selectors
+   - A162 - Aplicando estilos inline nos elementos com JavaScript
+   - A163 - Adicionar e remover classes de CSS nos elementos
+   - A164 - Manipular atributos dos elementos
+   - A165 - Adicionar elementos no DOM
+   - A166 - Event Handlers
+   - A167 - Introdução aos Event Listeners
+   - A168 - Exercícios com Event Listener - remove event listener
+   - A169 - Exercício com Event Listener - event propagation
+   - A170 - Exercício com Event Listener - O mesmo event listener para três elementos
+   - A171 - Exercício com Event Listener - caixa com gradação de cores
+   - A172 - Exercício com Event Listener - O mesmo exercício, mas menos código
+   - A173 - Impedir a ação por padrão de um evento
+   - A174 - Introdução à validação de formulários
+   - A175 -  Melhorar o sistema de validação do vídeo anterior
+   - A176 - Detalhes sobre carregamento do JavaScript no HEAD do HTML
+   - A177 - O que dizer acerca do JQuery
       - It's a 2006 JS library
       - [You might not need JQuery](https://youmightnotneedjquery.com/)
+   - A178 - O que ficou por dizer
+      - BOM, window, screen, localização, histórico, funções do browser, caixas de diálogos
+      - Timers, funções matemáticas, trabalhar com datas e horas, cookies
+      - Validação com expressões regulares, Ajax, JSON, tratamento de erros
+      - Promises e Async / Await, utilização de módulos e muito mais...
+      - será tratada nos módulos a seguir 
+      
 
-
-- Section 06 - JavaScript Exercises
-   - C180 - Counter Exercise 001
-   - C181 - Counter with range of values Exercise 002
-   - C182 - Counter with colors for negative, zero and positive Exercise 003
+## Seção 06 - Exercícios de JavaScript
+   - A179 - Introdução ao Módulo
+      - Material de apoio e lista de exercícios
+   - 001 - Counter Exercise
+   - 002 - Counter with range of values Exercise
+   - 003 - Counter with colors for negative, zero and positive Exercise 003
       - negative = red, positive = green, zero = white
-   - C183 - Three Sliders with independents values Exercise 004
-   - C184 - Three Sliders with independents values Exercise 005 - short code
-   - C185 - Three buttons and three information areas exercise 006
-   - C186 - Three buttons and three information areas exercise 007 - short code
-   - C187 - Change text colors with buttons exercise 008
-   - C188 - Change text opacity with range exercise 009
-   - C189 - Four boxes, click to change their colors, exercise 010
-   - C190 - Like tic-tac-toe, exercise 011
-   - C191 - Add paragraph with input text, exercise 012
-   - C192 - Add paragraph with number and input text, exercise 013
-   - C193 - Add paragraph restrict words, exercise 014
-   - C194 - Add paragraph before, exercise 015
-   - C195 - Add and clear paragraph input text, exercise 016
-   - C196 - Add paragraph input text with no repeat, exercise 017
-   - C197 - Add and individual paragraph eliminate, exercise 018
-   - C198 - It's Word in collection or not, exercise 019
-   - C199 - Inputs Change colors onfocus, exercise 020
-   - C200 - Focus next element with enter key, exercise 021
-   - C201 - Select option turn on/off checkboxes, exercise 022
-   - C202 - Checkboxes, all or nothing checked, exercise 023
-   - C203 - Checkboxes, Perfil permissions, exercise 024
-   - C204 - Multiplication table, exercise 025
-   - C205 - Sequence of inputs, exercise 026
-   - C206 - Check input text and change color, exercise 027
-   - C207 - 20 Random numbers with a click, exercise 028
-   - C208 - Show random numbers in rows and columns, exercise 029
-   - C209 - Calculate division by 3 with one decimal number, exercise 030
+   - 004 - Three Sliders with independents values Exercise 004
+   - 005 - Three Sliders with independents values Exercise 005 - short code
+   - 006 - Three buttons and three information areas exercise 006
+   - 007 - Three buttons and three information areas exercise 007 - short code
+   - 008 - Change text colors with buttons exercise 008
+   - 009 - Change text opacity with range exercise 009
+   - 010 - Four boxes, click to change their colors, exercise 010
+   - 011 - Like tic-tac-toe, exercise 011
+   - 012 - Add paragraph with input text, exercise 012
+   - 013 - Add paragraph with number and input text, exercise 013
+   - 014 - Add paragraph restrict words, exercise 014
+   - 015 - Add paragraph before, exercise 015
+   - 016 - Add and clear paragraph input text, exercise 016
+   - 017 - Add paragraph input text with no repeat, exercise 017
+   - 018 - Add and individual paragraph eliminate, exercise 018
+   - 019 - It's Word in collection or not, exercise 019
+   - 020 - Inputs Change colors onfocus, exercise 020
+   - 021 - Focus next element with enter key, exercise 021
+   - 022 - Select option turn on/off checkboxes, exercise 022
+   - 023 - Checkboxes, all or nothing checked, exercise 023
+   - 024 - Checkboxes, Perfil permissions, exercise 024
+   - 025 - Multiplication table, exercise 025
+   - 026 - Sequence of inputs, exercise 026
+   - 027 - Check input text and change color, exercise 027
+   - 028 - 20 Random numbers with a click, exercise 028
+   - 029 - Show random numbers in rows and columns, exercise 029
+   - 030 - Calculate division by 3 with one decimal number, exercise 030
    
-- Section 07 - Bootstrap 5 
-   - C210 - Introduction to the Module
-   - C211 - Bootstrap site: https://getbootstrap.com/
-   - C212 - Simple example, page with bootstrap
-   - C213 - Add bootstrap via CDN
-   - C214 - Add bootstrap via download do código
-   - C215 - Solution for warning map files
-      - remove on source code at the end of the code the call for files on warning.
-   - C216 - Knowing about breakpoints
-   - C217 - Containers, Rows and Columns
-   - C218 - Columns with sufix
-   - C219 - Responsive Columns
-   - C220 - Practical Exercise define number of columns with row-cols
-   - C221 - Define number of columns with row-cols
-   - C222 - Nesting rows inside cols
-   - C223 - Column offsets
-   - C224 - Horizontal alignment of columns
-   - C225 - Vertical alignment of columns
-   - C226 - Change column order
-   - C227 - Set vertical alignment of columns individually
-   - C228 - Spacing class - margin and padding
-   - C229 - Gutters in the layout grid
-   - C230 - About Css grid
+## ORGANIZAR AQUI - Seção 07 - Bootstrap 5 Completo
+   - A180 - Introdução ao Módulo
+      - Recursos
+   - A181 - Visita ao Site do Bootstrap
+      - site: https://getbootstrap.com/
+   - A182 - Exemplo muito simples de página com Bootstrap
+   - A183 - Adicionar o Bootstrap via CDN
+   - A184 - Adicionar o Bootstrap fazendo download dos ficheiros
+   - A185 - Solução para os warnings dos ficheiros MAP
+   - A186 - Entendendo o que são Breakpoints
+   - A187 - Containers, Rows e Columns
+   - A188 - Columns com sufixos
+   - A189 - Colunas responsivas
+   - A190 - Exercício prático
+   - A191 - Definir número de colunas com Row-Cols
+   - A192 - Aninhamento de Rows dentro de Cols
+   - A193 - Column Offsets
+   - A194 - Alinhamento horizontal de columns
+   - A195 - Alinhamento vertical de columns
+   - A196 - Alterar a ordem das columns
+   - A197 - Definir alinhamento vertical das columns individualmente
+   - A198 - Introdução às classes de espaçamento - Margin e Padding
+   - A199 - Gutters na grelha de Layout
+   - A200 - Sobre o CSS Grid no Bootstrap 5
+  --- aqui 
    - C231 - Typography and documentation analysis
    - C232 - Reponsive images with img-fluid
    - C233 - Brief reference to colors
@@ -523,7 +547,7 @@ Legendas:
    - C426 - Useful SQL functions dates-hours - ex.045
    - C427 - Final considerations of the module
 
-- Section 13 - PHP 8 Nível Avançado
+## Seção 13 - PHP 8 Nível Avançado
    - A428 - Introdução ao Módulo
    - A429 - As Frameworks de PHP
    - A430 - A aplicação que vamos criar
@@ -630,7 +654,7 @@ Legendas:
       - será necessário ao utilizar fazer um update composer.
       - Fim deste Módulo.
 
-- Section 14 - PHP 8 Criação e Execução de scripts no Terminal
+## Seção 14 - PHP 8 Criação e Execução de scripts no Terminal
    - A515 - Introdução ao Módulo
       - Recursos e Material de Apoio
    - A516 - PHP CLI e como executar um Script no terminal
@@ -647,7 +671,7 @@ Legendas:
    - A525 - Exercício com Base de Dados
    - A526 - Considerações Finais
 
-- Section 15 - REST APIs com PHP e MySQL
+## Seção 15 - REST APIs com PHP e MySQL
    - A527 - Introdução ao Módulo
    - A528 - O Formato Json & Função json_encode
    - A529 - A função json_decode
@@ -681,10 +705,13 @@ Legendas:
    - A556 - O Básico sobre geração de documentação com o Postman
    - A557 - Proposta sobre documentação de uma API
 
-- Section 16 - Exercícios de PHP
+## Seção 16 - Exercícios de PHP
+   - A558 - Introdução ao Módulo
+      - Materiais de apoio e lista de exercícios
    - 001 - Olá Mundo
    - 002 - Interpolação de Strings
    - 003 - Interpolação de Strings 2
+   - 004 - Array - Lista de frutas
 
 
    
