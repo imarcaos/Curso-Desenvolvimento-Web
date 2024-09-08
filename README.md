@@ -714,6 +714,7 @@ Legendas:
    - 004 - Array - Lista de frutas
    - 005 - Array - Ordenar lista de frutas
    - 006 - Array - Índice entre arrays
+   - 007 - Array - tamanho de cada elemento "strlen" do array
 
 
    
