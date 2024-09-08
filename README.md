@@ -713,6 +713,7 @@ Legendas:
    - 003 - Interpolação de Strings 2
    - 004 - Array - Lista de frutas
    - 005 - Array - Ordenar lista de frutas
+   - 006 - Array - Índice entre arrays
 
 
    
