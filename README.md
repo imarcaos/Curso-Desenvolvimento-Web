@@ -717,7 +717,8 @@ Legendas:
    - 007 - Array - tamanho de cada elemento "strlen" do array
    - 008 - Tabuada
    - 009 - Valores randômicos de 1 a 100
-   
+   - 010 - Valores randômicos ordenados e não repetidos
+
 
 
    
