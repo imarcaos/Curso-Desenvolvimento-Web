@@ -719,6 +719,7 @@ Legendas:
    - 009 - Valores randômicos de 1 a 100
    - 010 - Valores randômicos ordenados e não repetidos
    - 011 - Valores randômicos ordenados, não repetidos e condições
+   - 012 - Chave com valores capitais
 
 
 
