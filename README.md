@@ -720,6 +720,7 @@ Legendas:
    - 010 - Valores randômicos ordenados e não repetidos
    - 011 - Valores randômicos ordenados, não repetidos e condições
    - 012 - Chave com valores capitais
+   - 013 - Tabela de Profissões
 
 
 
