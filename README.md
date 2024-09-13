@@ -721,6 +721,7 @@ Legendas:
    - 011 - Valores randômicos ordenados, não repetidos e condições
    - 012 - Chave com valores capitais
    - 013 - Tabela de Profissões
+   - 014 - Três palavras no terminal
 
 
 
