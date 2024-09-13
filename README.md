@@ -723,6 +723,7 @@ Legendas:
    - 013 - Tabela de Profissões
    - 014 - Três palavras no terminal
    - 015 - Sucesso e erro no Terminal
+   - 016 - Adição de dois valores no terminal
 
 
 
