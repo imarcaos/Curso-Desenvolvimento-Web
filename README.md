@@ -722,6 +722,7 @@ Legendas:
    - 012 - Chave com valores capitais
    - 013 - Tabela de Profissões
    - 014 - Três palavras no terminal
+   - 015 - Sucesso e erro no Terminal
 
 
 
