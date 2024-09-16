@@ -724,9 +724,15 @@ Legendas:
    - 014 - Três palavras no terminal
    - 015 - Sucesso e erro no Terminal
    - 016 - Adição de dois valores no terminal
+   - 017 - Quanto tempo demorou a tarefa
+      - cálculo tempo de execução em segundos e casas decimais
+   -
 
 
-
+## Seção 17 - JavaScript Ajax, Sync e Async
+   - A559 - Introdução ao Módulo
+      - Apresentação e Material de Apoio
+   - 
    
    
    
