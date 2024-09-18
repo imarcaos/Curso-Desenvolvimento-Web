@@ -726,7 +726,8 @@ Legendas:
    - 016 - Adição de dois valores no terminal
    - 017 - Quanto tempo demorou a tarefa
       - cálculo tempo de execução em segundos e casas decimais
-   - 019 - Criando mil hashes únicas
+   - 018 - Criando mil hashes únicas
+   - 019 - Criando um número variável de hashes únicas
 
 
 ## Seção 17 - JavaScript Ajax, Sync e Async
