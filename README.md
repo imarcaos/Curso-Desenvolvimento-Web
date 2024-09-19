@@ -734,6 +734,7 @@ Legendas:
    - A559 - Introdução ao Módulo
       - Apresentação e Material de Apoio
    - A560 - Exemplo Básico de AJAX com XMLHttpRequest
+   - A561 - Pedido XMLHttpRequest com resposta em JSon
    
    
    
