@@ -728,6 +728,7 @@ Legendas:
       - cálculo tempo de execução em segundos e casas decimais
    - 018 - Criando mil hashes únicas
    - 019 - Criando um número variável de hashes únicas
+   - 020 - Distribuição de hashes por três ficheiros
 
 
 ## Seção 17 - JavaScript Ajax, Sync e Async
