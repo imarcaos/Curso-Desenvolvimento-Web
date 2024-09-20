@@ -737,6 +737,7 @@ Legendas:
    - A560 - Exemplo Básico de AJAX com XMLHttpRequest
    - A561 - Pedido XMLHttpRequest com resposta em JSon
    - A562 - Apresentar os dados da resposta o HTML
+   - A563 - Operar com dados mais complexos de JSon
    
    
    
