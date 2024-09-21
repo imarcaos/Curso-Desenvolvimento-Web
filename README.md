@@ -739,6 +739,8 @@ Legendas:
    - A562 - Apresentar os dados da resposta o HTML
    - A563 - Operar com dados mais complexos de JSon
    - A564 - Apresentar os dados numa tabela HTML
+   - A565 - Request a uma API Externa e Complexidade do JSON
+   
    
    
    
