@@ -742,7 +742,8 @@ Legendas:
    - A563 - Operar com dados mais complexos de JSon
    - A564 - Apresentar os dados numa tabela HTML
    - A565 - Request a uma API Externa e Complexidade do JSON
-   - A566 -Vamos tratar dos dados JSON e obter a informação desejada
+   - A566 - Vamos tratar dos dados JSON e obter a informação desejada
+   - A567 - A importância do JavaScript no tratamento dos dados
    
    
    
