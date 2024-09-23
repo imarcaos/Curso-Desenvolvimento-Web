@@ -732,7 +732,7 @@ Legendas:
    - 021 - Tabuada no Terminal
    - 022 - Tabuada até mil guardada em ficheiro
 
-   
+
 ## Seção 17 - JavaScript Ajax, Sync e Async
    - A559 - Introdução ao Módulo
       - Apresentação e Material de Apoio
@@ -742,6 +742,7 @@ Legendas:
    - A563 - Operar com dados mais complexos de JSon
    - A564 - Apresentar os dados numa tabela HTML
    - A565 - Request a uma API Externa e Complexidade do JSON
+   - A566 -Vamos tratar dos dados JSON e obter a informação desejada
    
    
    
