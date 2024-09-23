@@ -730,8 +730,9 @@ Legendas:
    - 019 - Criando um número variável de hashes únicas
    - 020 - Distribuição de hashes por três ficheiros
    - 021 - Tabuada no Terminal
+   - 022 - Tabuada até mil guardada em ficheiro
 
-
+   
 ## Seção 17 - JavaScript Ajax, Sync e Async
    - A559 - Introdução ao Módulo
       - Apresentação e Material de Apoio
