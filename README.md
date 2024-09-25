@@ -745,6 +745,7 @@ Legendas:
    - A565 - Request a uma API Externa e Complexidade do JSON
    - A566 - Vamos tratar dos dados JSON e obter a informação desejada
    - A567 - A importância do JavaScript no tratamento dos dados
+   - A568 - O que é JavaScript Síncrono e Assíncrono
    
    
    
