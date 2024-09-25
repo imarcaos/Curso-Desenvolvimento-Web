@@ -731,6 +731,7 @@ Legendas:
    - 020 - Distribuição de hashes por três ficheiros
    - 021 - Tabuada no Terminal
    - 022 - Tabuada até mil guardada em ficheiro
+   - 023 - Apresentar nomes em intervalos de letras
 
 
 ## Seção 17 - JavaScript Ajax, Sync e Async
