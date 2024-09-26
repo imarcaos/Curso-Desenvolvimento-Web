@@ -747,6 +747,13 @@ Legendas:
    - A566 - Vamos tratar dos dados JSON e obter a informação desejada
    - A567 - A importância do JavaScript no tratamento dos dados
    - A568 - O que é JavaScript Síncrono e Assíncrono
+   - A569 - Callbacks
+      - para ter um visão para o caso de revisão de um código antigo
+      - por exemplo ao usarmos o chamado de uma função com uma arrow funcion
+      em seu interior estamos a fazer o mesmo trabalho de uma callback antiga
+      de uma forma mais simples.
+
+      
    
    
    
