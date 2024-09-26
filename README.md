@@ -732,6 +732,7 @@ Legendas:
    - 021 - Tabuada no Terminal
    - 022 - Tabuada até mil guardada em ficheiro
    - 023 - Apresentar nomes em intervalos de letras
+   - 024 - Separar nomes em ficheiros por intervalo de letras
 
 
 ## Seção 17 - JavaScript Ajax, Sync e Async
