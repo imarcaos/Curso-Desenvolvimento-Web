@@ -753,6 +753,7 @@ Legendas:
       - por exemplo ao usarmos o chamado de uma função com uma arrow function
       em seu interior estamos a fazer o mesmo trabalho de uma callback 
       de uma forma mais simples.
+   - A570 Promises
 
 
    
