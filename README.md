@@ -733,6 +733,7 @@ Legendas:
    - 022 - Tabuada até mil guardada em ficheiro
    - 023 - Apresentar nomes em intervalos de letras
    - 024 - Separar nomes em ficheiros por intervalo de letras
+   - 025 - Apresentar dados a partir de um formulário
 
 
 ## Seção 17 - JavaScript Ajax, Sync e Async
@@ -749,11 +750,11 @@ Legendas:
    - A568 - O que é JavaScript Síncrono e Assíncrono
    - A569 - Callbacks
       - para ter um visão para o caso de revisão de um código antigo
-      - por exemplo ao usarmos o chamado de uma função com uma arrow funcion
-      em seu interior estamos a fazer o mesmo trabalho de uma callback antiga
+      - por exemplo ao usarmos o chamado de uma função com uma arrow function
+      em seu interior estamos a fazer o mesmo trabalho de uma callback 
       de uma forma mais simples.
 
-      
+
    
    
    
